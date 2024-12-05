@@ -30,10 +30,4 @@ https://hub.notificame.com.br/
 - Agora so colocar adicionar Canal e escolher Hub
 
 
-
-
-https://hub.notificame.com.br/docs/#/users?id=-instagram
-
-- Prescisa token da api para colocar na configuração Token Hub na pagina canais
-
-- Você pode encontrá-lo acessando sua conta NotificaMe Hub na página do Dashboard, ao lado da mensagem de Bem-Vindo.
+# Não é possivel iniciar conversa com HUB somente responder depois da interação do cliente
