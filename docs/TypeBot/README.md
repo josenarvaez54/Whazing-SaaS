@@ -46,8 +46,11 @@ remoteJid
 **IMPORTANTE**: 
 
 - [Como instalar typebot mesma VPS WHAZING](Comoinstalar.md)
+
+# Exemplo fluxo para baixar abaixo e importar no typebot
+
 - [Exemplo de fluxo typebot compativel com whazing](exemplo-fluxo-typebot.json)
-- [Como instalar typebot mesma VPS WHAZING](Comoinstalar.md)
+
 
 # Como compartilhar fluxo com cliente
 
