@@ -1,4 +1,4 @@
-## Configurar Groq ou ChatGPT
+## Configurar Typebot 
 
 >![print](configurartypebot.png)
 
