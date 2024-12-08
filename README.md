@@ -10,7 +10,7 @@ Novos recursos
 - Solicitar teste na pagina de login, e função esqueci a senha
 - Planos
 - Menu Ajuda
-- Integração bancaria(mercado pago, assas, EFI) recebimento PIX, cartão e boleto verificar docs
+- Integração bancaria(mercado pago, assas, EFI, Stripe) recebimento PIX, cartão e boleto verificar docs
 - Integração WebHook/N8N - TypeBot - Groq - ChatGPT (função exclusiva versão premium)
 - Suporte facebook e instagram  e WebChat via hub (função exclusiva versão premium)
 - KANBAN (função exclusiva versão premium)

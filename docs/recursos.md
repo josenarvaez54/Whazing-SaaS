@@ -4,7 +4,7 @@
 - Solicitar teste na pagina de login, e função esqueci a senha
 - Planos
 - Menu Ajuda
-- Integração bancaria com Efi, mercado pago, Asaas. Recebimento em PIX, cartão de crédito, boleto.
+- Integração bancaria com Efi, mercado pago, Asaas, Stripe. Recebimento em PIX, cartão de crédito, boleto.
 - Lista de Protocolos
 - Lista de Agendamentos
 - Tela atendimento com varios filtros, separação por grupos
@@ -31,4 +31,4 @@
 
 
 
-Versão atual: 2.7.3
+Versão atual: 2.7.6.5
