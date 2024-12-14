@@ -1,3 +1,13 @@
+Versão 2.7.6.6
+- bug - Gravacao Audio robotizado celular, troca lib grava espero resolva, aguardo feedback
+- bug - Kanban some dados da tela alterados(valor, comentario) ao trocar lane
+- bug - Relatorios contatos por estado não funcionava
+- bug - alguns formatos arquivos recebidos nao mostrava legenda
+- Geração PDF voltado modelo antigo e feito script excluir emojis, novo metodo não tava bom tambem
+- Kanban alterado exibir lanes lado a lado
+- Mensagens rapidas muito grandes truncar para não gerar tela enorme
+- Envio arquivos tenta manter nome original do mesmo
+
 Versão 2.7.6.5
 - Suporte envio TXT
 
