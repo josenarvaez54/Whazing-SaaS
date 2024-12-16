@@ -59,6 +59,11 @@ ___
 >![print](screenshots/kanban.png)
 ___
 
+## Como instalar
+
+-  [Demonstração basica e Instalação](https://www.youtube.com/watch?v=RMztcAwRjxQ)
+
+
 ## Manual feito por um cliente da prataforma
 
 -  [Manual](https://ajuda.super-zapp.com.br/)
