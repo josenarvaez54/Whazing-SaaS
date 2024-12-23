@@ -1,15 +1,21 @@
 # Instalar Typebot mesma VPS WHAZING
-
 Tutorial com muitos detalhes então preste bastante atenção e veja o video que me baseado pra fazer o mesmo, para ajudar entender melhor os passos. Lembrando no video ele usa traefik e alteramos usar nginx para ser compativel mesma vps whazing
 
-Ter dns apontados
-# Domínios
+Baseado tutorial alterado para usar com ngnix: https://rwebtec.com.br/instalar-typebot-portainer-lucrar-vendendo-assinaturas/ 
+
+## CRIAR SUBDOMINIO E APONTAR PARA O IP DA SUA VPS
+
+Exemplo:
 chatbot.webconfiavel.com.br
 chatbotapi.webconfiavel.com.br
 minios3.webconfiavel.com.br
 s3.webconfiavel.com.br
 
-Baseado tutorial alterado para usar com ngnix: https://rwebtec.com.br/instalar-typebot-portainer-lucrar-vendendo-assinaturas/ 
+## CHECAR PROPAGAÇÃO DO DOMÍNIO
+
+https://dnschecker.org/
+
+## Acesso Portainer
 
 Acesse URL do Portainer: http://seuip:9000/
 
@@ -200,6 +206,8 @@ sudo certbot --nginx
 . Agora acesse url minio "minios3.webconfiavel.com.br"
       - MINIO_ROOT_USER=rodnei
       - MINIO_ROOT_PASSWORD=Admin33Admin77
+	  
+- Dentro do minio siga instruções abaixo
 	  
 - Buckets - 
 

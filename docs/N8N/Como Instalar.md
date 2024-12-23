@@ -1,8 +1,15 @@
 # Instalar N8N mesma VPS WHAZING
 
-Ter dns apontados
-# Domínios
+## CRIAR SUBDOMINIO E APONTAR PARA O IP DA SUA VPS
+
+Exemplo:
 n8n.webconfiavel.com.br
+
+## CHECAR PROPAGAÇÃO DO DOMÍNIO
+
+https://dnschecker.org/
+
+## Acesso Portainer
 
 Acesse URL do Portainer: http://seuip:9000/
 
