@@ -44,7 +44,7 @@ remoteJid
 - Comando para finalizar o atendimento (não precisa trocar o 1)
 #{ "closeTicket":"1" }
 
-- Os ids podem ser pego na tela lista os cadastros no whazinggit
+- Os ids podem ser pego na tela lista os cadastros no whazing
 
 **IMPORTANTE**: 
 
