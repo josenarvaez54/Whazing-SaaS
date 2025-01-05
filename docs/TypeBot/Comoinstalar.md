@@ -44,7 +44,9 @@ version: "3.7"
 
 services:
   postgres:
+    container_name: postgresqltypebot
     image: postgres:latest
+    restart: always
     environment:
       - POSTGRES_PASSWORD=Admin33Admin77
     networks:
@@ -88,7 +90,9 @@ version: "3.7"
 
 services:
   minio:
-    image: quay.io/minio/minio
+    container_name: miniotypebot
+    image: minio/minio
+    restart: always
     command: server /data --console-address ":9001"
     networks:
       - typebot_rede
@@ -230,7 +234,9 @@ version: "3.7"
 
 services:
   typebot_viewer:
+    container_name: typebotviewer
     image: baptistearno/typebot-viewer:latest
+    restart: always
     networks:
       - typebot_rede
     ports:
@@ -284,7 +290,9 @@ version: "3.7"
 
 services:
   typebot_builder:
+    container_name: typebotbuilder
     image: baptistearno/typebot-builder:latest
+    restart: always
     networks:
       - typebot_rede
     ports:

@@ -2,7 +2,9 @@ version: "3.7"
 
 services:
   typebot_viewer:
+    container_name: typebotviewer
     image: baptistearno/typebot-viewer:latest
+    restart: always
     networks:
       - typebot_rede
     ports:
