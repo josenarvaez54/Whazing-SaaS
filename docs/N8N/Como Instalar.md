@@ -38,7 +38,9 @@ version: "3.7"
 
 services:
   postgres:
+    container_name: postgresqln8n
     image: postgres:latest
+    restart: always
     environment:
       - POSTGRES_PASSWORD=Admin33Admin77
     networks:
@@ -82,7 +84,9 @@ version: "3.7"
 
 services:
   n8n:
+    container_name: n8n
     image: n8nio/n8n
+    restart: always
     networks:
       - n8n_rede
     ports:
