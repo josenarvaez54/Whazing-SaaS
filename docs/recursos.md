@@ -27,6 +27,11 @@
 - Integração Groq responder mensagens e Microsoft Azure Text-to-Speech para responder com audios (função exclusiva versão premium)
 - Suporte facebook e instagram  e WebChat via hub (função exclusiva versão premium)
 - KANBAN (função exclusiva versão premium)
+- Relatorio de tickets (função exclusiva versão premium)
+- Geração PDF atendimento (função exclusiva versão premium)
+- Anotações em tickets(Recurso Premium)
+- Mensagens separadas por filas(Recurso Premium)
+- Transferir atendimento para ChatBot (Recurso Premium)
 - Entre outros instale e teste para verificar mais detalhes
 
 
