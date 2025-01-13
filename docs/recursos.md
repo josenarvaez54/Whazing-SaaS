@@ -14,7 +14,7 @@
 - Montagem de Bot estilo ChatFlow, com recursos como delay, envios audios arquivos, webhooks entre outros
 - WhiteLabel pelo Painel
 - Tarefas
-- Avaliações (função exclusiva versão premium)
+- Avaliação de atendimento (função exclusiva versão premium)
 - Transcrição de audio (função exclusiva versão premium)
 - Fechamento tickets em Massa
 - Apagar tickets em Massa
