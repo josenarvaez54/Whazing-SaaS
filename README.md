@@ -68,6 +68,13 @@ ___
 >![print](screenshots/kanban.png)
 ___
 
+## Demo do produto
+
+-  [https://teste.whazing.com.br/](https://teste.whazing.com.br/)
+
+- usuario: admin@admin.com
+- senha: 123456
+
 ## Como instalar
 
 -  [Demonstração basica e Instalação](https://www.youtube.com/watch?v=RMztcAwRjxQ)
