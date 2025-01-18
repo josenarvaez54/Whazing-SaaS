@@ -13,7 +13,7 @@
 - Importação contatos
 - Montagem de Bot estilo ChatFlow, com recursos como delay, envios audios arquivos, webhooks entre outros
 - WhiteLabel pelo Painel
-- Tarefas
+- Tarefas (função exclusiva versão premium)
 - Avaliação de atendimento (função exclusiva versão premium)
 - Transcrição de audio (função exclusiva versão premium)
 - Fechamento tickets em Massa
@@ -29,9 +29,9 @@
 - KANBAN (função exclusiva versão premium)
 - Relatorio de tickets (função exclusiva versão premium)
 - Geração PDF atendimento (função exclusiva versão premium)
-- Anotações em tickets(Recurso Premium)
-- Mensagens separadas por filas(Recurso Premium)
-- Transferir atendimento para ChatBot (Recurso Premium)
+- Anotações em tickets(função exclusiva versão premium)
+- Mensagens separadas por filas(função exclusiva versão premium)
+- Transferir atendimento para ChatBot (função exclusiva versão premium)
 - Entre outros instale e teste para verificar mais detalhes
 
 
