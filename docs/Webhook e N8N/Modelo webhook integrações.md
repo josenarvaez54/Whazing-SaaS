@@ -17,6 +17,7 @@
         status: ticket.status,
         protocol: ticket.protocol,
         queueId: ticket.queueId,
+		apiConfig: ticket.apiConfig,
       },
       contact: contact ? {
         id: contact.id,
@@ -37,3 +38,7 @@
         name: whatsapp.name,
       },
     };
+	
+	
+	
+apiConfig essa informação quando você usa api e preenche campo "externalKey": "ID_UNICA_DO_SISTEMA_CLIENTE_PARA_EXECUTAR_UMA_ACAO_COM_WEBHOOK"

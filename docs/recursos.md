@@ -36,4 +36,4 @@
 
 
 
-Versão atual: 2.7.6.6
+Versão atual: 2.8.6
