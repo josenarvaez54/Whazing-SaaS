@@ -2,6 +2,8 @@
 
 
 Dados enviados opção "Novo ticket"
+
+
       const dataToSend = {
         Type:"NewTicket",
         messageBody: mensagem,
