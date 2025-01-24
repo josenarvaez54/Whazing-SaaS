@@ -1,3 +1,11 @@
+Versão 2.8.7
+
+- bug - mensagens editadas no android nao aparecia
+- bug - envio arquivos pelo hub
+- bug - prataforma não vai trava receber arquivos grandes, ele vai dividir arquivos em partes para baixar( nos testes teve alguns arquivos ficaram comrompidos)
+- Suporte recebimento mensagens lista de transmissão
+- Mensagem vizualizacao unica da aviso na prataforma
+
 Versão 2.8.6
 
 
