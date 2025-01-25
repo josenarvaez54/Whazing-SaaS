@@ -59,14 +59,19 @@ Versão Premium*
 
 ## Screenshots
 >![print](screenshots/saas.png) 
-___  
+
 >![print](screenshots/atendimento.png)
-___
 
 >![print](screenshots/solicitarteste.png)
 
 >![print](screenshots/kanban.png)
-___
+
+>![print](screenshots/kanban.png)
+
+>![print](screenshots/white.png)
+
+>![print](screenshots/dashboard.png)
+
 
 ## Demo do produto
 
