@@ -66,8 +66,6 @@ Versão Premium*
 
 >![print](screenshots/kanban.png)
 
->![print](screenshots/kanban.png)
-
 >![print](screenshots/white.png)
 
 >![print](screenshots/dashboard.png)
