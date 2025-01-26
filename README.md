@@ -82,6 +82,7 @@ Versão Premium*
 
 -  [Demonstração basica e Instalação](https://www.youtube.com/watch?v=RMztcAwRjxQ)
 
+-  [Instalação](https://youtu.be/3vsXNyGxo58?si=sjnyqHtKgyfSJX7_)
 
 ## Manual feito por um cliente da prataforma
 
