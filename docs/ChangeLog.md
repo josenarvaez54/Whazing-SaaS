@@ -1,3 +1,8 @@
+Versão 2.8.7 - 27-01-2025
+
+- bug - não marcar como lidas atendimentos feitos pelo bot
+- bug - 2 via boleto assas somente interagir caso boleto esteja como pendente
+
 Versão 2.8.7
 
 - bug - mensagens editadas no android nao aparecia
