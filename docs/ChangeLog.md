@@ -1,3 +1,8 @@
+Versão 2.8.7 - 28-01-2025
+
+- bug - Se atendente demorar responder voltar tickets aos Pendentes - retira o usuario associado agora
+- Retirado espaço assinatura
+
 Versão 2.8.7 - 27-01-2025
 
 - bug - não marcar como lidas atendimentos feitos pelo bot
