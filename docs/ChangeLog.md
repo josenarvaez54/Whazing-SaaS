@@ -1,3 +1,8 @@
+Versão 2.8.8 - 30-01-2025
+
+- troca versão baileys para resolver problema ban grupos
+- Mudança fechamento quando tem avaliação
+
 Versão 2.8.7 - 28-01-2025
 
 - bug - Se atendente demorar responder voltar tickets aos Pendentes - retira o usuario associado agora
