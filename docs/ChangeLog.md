@@ -1,3 +1,7 @@
+Versão 2.8.9 - 31-01-2025
+
+- update versao baileys 6.7.10
+
 Versão 2.8.8 - 30-01-2025
 
 - troca versão baileys para resolver problema ban grupos
