@@ -1,3 +1,61 @@
+Versão 2.8.10
+
+--- Atenção essa versão somente aceita hub adquirido de revenda autorizada na Whazing ---
+--- Caso tenha adquirido de terceiros não atualize ---
+
+- bug grave - Não estava recebendo mensagens do hub
+
+- Hub acesso intagram, facebook e Webchat estara disponivel na versão FREE
+
+- Aquele aviso de mensagem Mensagem recebida não compatível com o sistema agora aciona bots e integrações
+
+- Ajustes Layout
+- Modal ajustado tamanho pra ficar x no lado nome Modal
+- Tamanho conteudo tela
+- Retirado botão notificação, silenciar e usuario da direita
+- Notificação aparece menu
+- Usuario passou fazer parte menu
+- Alguns menus foram agrupos, como Equipes ficou junto usuarios e integrações junto com as filas
+- Teve bastante ajuste layout então pode ter passado algo esqueci mencionar
+
+- Avaliação
+- Para quem tem mensagem despedida ele envia antes mensagem despedida depois pergunta avaliação
+- Notas agora vão até 5
+- Dashboard consultar as avaliações recebidas
+
+- Tela Atendimento
+- bug - modo dark aparecer botao fechar contatos
+- bug - Ao receber novo mensagem marcação respondendendo desmarcava
+- Badge total tickets passar usar cor tema, total geral foi descontinuado dava contagens muito erradas
+- Exibi um Badge com numero tickets nao lidos em abertos em vermelho
+- Alguns formatos arquivos vai ter opção baixar
+- Adicionado formatos .dwg, .cad, .cdr, .psd para envio
+- Nova configuração para tickets fechados listar somente ultimo do contato
+- Supervisor de Fila - Esse usuario nao vai considerar "Não visualizar Tickets Privados já atribuidos à outros usuários" vai exibir todos tickets pertecentes a fila que ja tem usuario
+- Versão emoticons modificada que possivel pesquisar pelo tipo emoji exemplo sorrindo
+- Ao clicar mensagem respondida foca ela se ela estiver rederizada tela.. Ou seja se mensagem nao esteja carregada na tela não vai funcionar
+
+- Agendamento
+- Novo sistema remodulado idenpente do tickets, os agendamentos antigos nessa versão ainda serão enviados futuramente será totalmente removido
+- Possibilidade repetir agendamentos
+
+- Kanban
+- Agora modulo se chama CRM
+- Administrador pode consultar lanes de outros usuarios - somente leitura
+- Botão adicionar mais visivel
+- Opção colocar ordem quer aparece lanes
+
+- Tarefas novo filtro por status
+
+- Nova integração com ia DeepSeek
+- Nova Ingração com ChatGPT suporte a assistant
+
+- Importar contatos valida se formato do arquivo compativel com sistema para evitar falsos positivos
+
+- Chat interno
+- Notificação exibi se foi grupo ou individual
+- Suporte envio de audios
+
 Versão 2.8.9 - 31-01-2025
 
 - update versao baileys 6.7.10
