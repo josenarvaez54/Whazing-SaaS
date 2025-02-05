@@ -1,5 +1,7 @@
 # Configuração hub - instagram - facebook
 
+- Sistema somente aceita token adquiridos de revenda autorizada
+
 - Acessar
 https://hub.notificame.com.br/
 
