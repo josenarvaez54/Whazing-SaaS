@@ -35,7 +35,7 @@ Versão Premium*
 - Não possui limites
 
 - Kanban
-- Integração WebHook/N8N - TypeBot - Groq - ChatGPT
+- Integração WebHook/N8N - TypeBot - Groq - ChatGPT - DeepSeek
 - Transcrição de audio
 - Tarefas
 - Avaliação de atendimento

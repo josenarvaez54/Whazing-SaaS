@@ -7,6 +7,7 @@ Versão 2.8.10
 
 - Hub acesso intagram, facebook e Webchat estara disponivel na versão FREE
 
+- bug - criar novo ticket contatos envia mensagem transferencia
 - Aquele aviso de mensagem Mensagem recebida não compatível com o sistema agora aciona bots e integrações
 
 - Ajustes Layout

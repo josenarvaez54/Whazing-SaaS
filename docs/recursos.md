@@ -25,6 +25,8 @@
 - Integração TypeBot (função exclusiva versão premium)
 - Integração ChatGPT responder mensagens e Microsoft Azure Text-to-Speech para responder com audios (função exclusiva versão premium)
 - Integração Groq responder mensagens e Microsoft Azure Text-to-Speech para responder com audios (função exclusiva versão premium)
+- Integração DeepSeek responder mensagens e Microsoft Azure Text-to-Speech para responder com audios (função exclusiva versão premium)
+- Integração 2 via boleto Assas (função exclusiva versão premium)
 - Suporte facebook e instagram  e WebChat - VIA HUB - Necessario pagar mensalidade por canal duvidas (48) 9941-6725
 - KANBAN (função exclusiva versão premium)
 - Relatorio de tickets (função exclusiva versão premium)
