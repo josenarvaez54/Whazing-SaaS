@@ -81,6 +81,7 @@
     * [SINCRONIZAR MENSAGENS - API PLUS - WuzApi](funcionalidades/whatsapp/sincronizar_mensagens_api_plus.md)
     * [Liberar Grupos WhatsApp](funcionalidades/whatsapp/liberar_grupos_whatsapp.md)
   * [Gestão](funcionalidades/gestao/README.md)
+    * [Organização de Atendimentos, Filas e Permissões de Usuários](funcionalidades/gestao/organizacao-de-atendimentos-filas-e-permissoes-de-usuarios.md)
     * [Usuários](funcionalidades/gestao/usuarios.md)
     * [Perfil de Usuário](funcionalidades/gestao/perfil_usuario.md)
     * [Importar Contatos](funcionalidades/gestao/importarcontatos.md)
