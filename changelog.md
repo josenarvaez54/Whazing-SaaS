@@ -1,5 +1,16 @@
 # Changelog e Atualizações
 
+## 🚀 Versão 2.16.2 FINAL – Changelog
+- bug - tarefas busca
+- bug - correção limitação sincronizar templates
+- bug - sincronizar templates somente aparece novos se atualizar pagina
+- bug - Auto close da recepção inteligente não fechava ticket caso não tivesse mensagem fechamento definida
+- bug - correção formatação texto tela atendimento quebras linhas não existem
+- bug - segundo botao coringa usario não funciona
+- bug - campo aparece campo sem nome configuração whatsapp
+- bug - reacao nao aparecer modo dark no chat interto
+- Update baileys versão necessário ler qrcode
+
 ## 🚀 Versão 2.16.1 BETA – Changelog
 - bug - correção dtmf discador sip
 - bug - sobrescrita arquivos S3
