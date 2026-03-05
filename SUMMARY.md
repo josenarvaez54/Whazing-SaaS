@@ -147,3 +147,4 @@
   * [Erro de Licença](solucao-de-problemas/an-error-occurred-while-validating-the-license..md)
   * [Reinstalar Redis](solucao-de-problemas/reinstalar_redis.md)
   * [Como verificar erros no Console do Navegador (Google Chrome)](solucao-de-problemas/como-verificar-erros-no-console-do-navegador-google-chrome.md)
+  * [Diagnóstico de Lentidão em Servidores Linux com Docker](solucao-de-problemas/diagnostico-de-lentidao-em-servidores-linux-com-docker.md)
