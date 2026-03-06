@@ -106,3 +106,12 @@ Caso queira que o **Botão Coringa apareça apenas para uma empresa específica*
 ***
 
 ✅ Dessa forma, o **Botão Coringa será exibido somente para a empresa configurada**, permitindo total personalização sem impactar as demais empresas do sistema.
+
+### 🏢 Botão Coringa por Usuário
+
+No cadastro do usuário existe a aba **“Botão Coringa”**.\
+Essa opção permite **criar um novo item no menu do sistema**, onde será aberto um **iframe com o site configurado**.
+
+Assim, cada usuário pode ter acesso rápido a ferramentas ou sistemas externos diretamente pelo menu do sistema.
+
+<figure><img src="../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
