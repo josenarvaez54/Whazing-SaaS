@@ -58,6 +58,9 @@ description: >-
 2. Na etapa 5, clique em **Adicionar Número de Telefone**.
 3. Informe os dados solicitados e conclua a validação.
 
+📲 Caso precise de um número para utilizar no sistema, você pode adquirir facilmente através do portal:\
+[https://telera.whazing.com.br](https://telera.whazing.com.br/)
+
 ***
 
 #### 5️⃣ Gerar Token Temporário

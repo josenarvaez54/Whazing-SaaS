@@ -100,3 +100,6 @@ whazing
 Adquira a versão Premium para remover anúncios.
 
 WhatsApp: \*\*[+55 48 3197-0877](https://wa.me/554831970877)\*\* ou \*\*[+55 48 3197-0599](https://wa.me/554831970599)\*\*
+
+📲 Caso precise de um número para utilizar no sistema, você pode adquirir facilmente através do portal:\
+[https://telera.whazing.com.br](https://telera.whazing.com.br/)

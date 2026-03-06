@@ -124,3 +124,6 @@ Usar cupom desconto: whazing
 | **API Oficial Meta (WABA)**                                                                              | Paga     | Conforme uso da API (Meta)         | Templates, botões, multimídia      | Oficial, maior garantia, escalável |
 
 ***
+
+📲 Caso precise de um número para utilizar no sistema, você pode adquirir facilmente através do portal:\
+https://telera.whazing.com.br
