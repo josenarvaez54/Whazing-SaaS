@@ -19,7 +19,7 @@ Isso torna o processo de conexão **mais simples, rápido e transparente**, sem 
 
 Para habilitar a geração automática de token, basta informar:
 
-* 🌐 **URL do servidor WuzApi**
+* 🌐 **URL do servidor Uazapi**
 * 🔐 **Token ADMIN**
 
 Com apenas esses dois dados, o sistema já consegue criar e registrar os tokens automaticamente.
