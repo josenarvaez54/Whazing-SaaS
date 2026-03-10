@@ -86,14 +86,18 @@ docker run --name redis-whazing \
   -e TZ=America/Sao_Paulo \
   -p 6383:6379 \
   --restart=always \
+  --memory=3g \
   -d redis:latest redis-server \
     --requirepass "senhacopiada" \
-    --maxclients 2000 \
+    --maxclients 10000 \
     --tcp-keepalive 60 \
-    --maxmemory-policy allkeys-lru \
+    --maxmemory 2gb \
+    --maxmemory-policy noeviction \
     --save "" \
-    --appendonly yes \
-    --appendfsync everysec
+    --appendonly no \
+    --lazyfree-lazy-eviction yes \
+    --lazyfree-lazy-expire yes \
+    --lazyfree-lazy-server-del yes
 ```
 
 ✅ **Dica**: Se estiver em outro fuso horário, troque `America/Sao_Paulo` pelo seu.
