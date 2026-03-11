@@ -1,5 +1,10 @@
 # Changelog e Atualizações
 
+## 🚀 Versão 2.16.2 FINAL – Changelog - 11/03/26
+- bug - correção bug download pdf
+- bug - troca versão baileys anterior parece ta muito ruim
+
+
 ## 🚀 Versão 2.17.0 BETA – Changelog
 
 - Necessário reinstalar redis - https://doc.whazing.com.br/solucao-de-problemas/reinstalar_redis
