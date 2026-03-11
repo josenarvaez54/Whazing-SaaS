@@ -1,5 +1,33 @@
 # Changelog e Atualizações
 
+## 🚀 Versão 2.17.0 BETA – Changelog
+
+- Necessário reinstalar redis - https://doc.whazing.com.br/solucao-de-problemas/reinstalar_redis
+
+- Atualização todo sistema de filas do sistema - migração bull para bullMq
+- Integração infinity - Atualização novo modelo com webhook, com baixas automaticas mais garantidas
+- Deletar ticket deleta arquivos vinculados ele
+- Envio reação respostas, novo layout
+- Opção "apagar para mim" - envidas ou recebidas - deleta mensagem permanentemente (somente admin e supervisor)
+- Formatação texto campo input tela atendimento
+- Envia mensagem informando passou prazo avaliação terminou(Necessário configurar mensagem no canal)
+- Encaminha mensagens atendimento para chat interno
+- Nova opção apagar midea em massa por empresas, filtro por data, whazing ira apagar midea e substituir por uma imagem generica informando aquela midea foi apagada. Depende da quantidade de arquivos esse processo pode ser lento então diminua o periodo para evitar erros.
+- Novos contatos, podem ter identificação origem(qual canal fez cadastro)
+- Historico atendimentos aba contatos(supervisor e admin ver todos, outros usuarios somente ve deles)
+- Gerenciador templates opção criar, editar e deletar template (mais simples alguns templates ainda deve ser feito direto painel meta)
+- Suporte Gemini na melhoria de texto
+- Abrir editar contato grupo como administrator ou supervisor possivel listar participantes e exportar excel (caso não aparecer aba sincronizar grupos para verificar grupo do whatsapp)
+- Termos de uso e Politica de privacidade, cadastro url para testes automaticos
+- Follow-up Recepção inteligente configuração horario permitido para executar evitar enviar mensagem fora horario comercial
+- Link informativos são clicaveis
+- Novas estatisticas dashboard SaaS
+- Programa afiliados (indique e ganhe)
+- Novas personalizações tela login
+- Troca fundo tela chat
+- Configuração controle acesso public no .env
+- Suporte CloudFlare Turnstile
+
 ## 🚀 Versão 2.16.2 FINAL – Changelog
 - bug - tarefas busca
 - bug - correção limitação sincronizar templates
