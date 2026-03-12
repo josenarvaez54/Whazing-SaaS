@@ -76,6 +76,7 @@
     * [Despedida](docs/modulos/despedida.md)
     * [Motivos de Encerramento](docs/modulos/motivos-de-encerramento-de-tickets.md)
     * [Chave PIX](funcionalidades/atendimento/chave-pix.md)
+    * [Formatação de Texto](funcionalidades/atendimento/formatacao-de-texto.md)
   * [Automação](funcionalidades/automacao/README.md)
     * [CHATBOT INTERNO](docs/chatbotinterno/README.md)
     * [Fluxos por palavra chave](docs/chatbotinterno/fluxo-por-palavra-chave.md)
