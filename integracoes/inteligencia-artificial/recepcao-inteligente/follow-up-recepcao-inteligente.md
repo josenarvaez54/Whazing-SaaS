@@ -9,7 +9,7 @@ Esse recurso ajuda a:
 * 🗂️ Evitar tickets esquecidos
 * 🔒 Encerrar atendimentos inativos de forma organizada
 
-<figure><img src="../../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -21,6 +21,14 @@ No exemplo da imagem:
 * O envio acontece em **tempo aleatório dentro desse intervalo**
 
 ✅ Isso torna o envio mais natural ✅ Evita padrão fixo de disparo ✅ Deixa a automação mais dinâmica
+
+***
+
+## ⏱️ Como funciona horário permitido
+
+No exemplo da imagem:
+
+* O envio somente acontece em horário de 08:00 as 20:00 para evitar disparos noturnos
 
 ***
 
