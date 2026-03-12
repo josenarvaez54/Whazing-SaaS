@@ -16,4 +16,4 @@
     ✅ Modelo pronto para revenda: foco total no seu crescimento
 * 🚀 Comece agora a gerar renda com um sistema de atendimento completo, fácil de gerenciar e pronto para escalar!
 
-<figure><img src=".gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

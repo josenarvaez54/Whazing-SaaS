@@ -29,7 +29,7 @@ Para isso:
 2. Clique em **Canais / API**
 3. Acesse **Templates**
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Nesta área você pode:
 
@@ -140,7 +140,7 @@ Com um ticket aberto:
 1. Clique no botão **“+”**
 2. Selecione **Enviar Template**
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
