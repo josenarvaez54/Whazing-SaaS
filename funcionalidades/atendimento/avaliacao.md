@@ -30,12 +30,16 @@ Ao habilitar a avaliação de atendimento, você poderá configurar os seguintes
 * Configure o texto caso o cliente envie uma avaliação fora do formato esperado (por exemplo, uma nota que não esteja entre 1 e 5).
 * **Exemplo de mensagem:** "Sua avaliação não foi válida. Por favor, envie uma nota entre 1 e 5."
 
-### **4. Tempo para Avaliação**
+### **4.** Tempo em minutos que aguarda cliente avaliar
 
 * Determine o tempo, em minutos, que o sistema aguardará para receber a avaliação do cliente após o envio da solicitação.
 * **Exemplo:** Defina 10 minutos, caso queira que o cliente tenha esse intervalo para responder.
 
-### **5.** Intervalo em horas entre as solicitações de avaliação
+### **5.** Mensagem de encerramento caso o prazo de avaliação seja ultrapassado
+
+* Mensagem que será enviada quando tempo definido da configuração 4 for superado, caso não tenha mensagem definida ele não envia nada.
+
+### **6.** Intervalo em horas entre as solicitações de avaliação
 
 * Determine o tempo, em horas, que o sistema aguardará para solicitar uma nova avaliação
 * **Exemplo:** Defina 6 horas, somente será solicitado avaliar atendimento após 6 horas da uma avaliação.
