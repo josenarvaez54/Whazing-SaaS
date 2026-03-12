@@ -7,7 +7,7 @@ icon: wand-magic-sparkles
 
 <figure><img src="../../.gitbook/assets/image (5) (1).avif" alt=""><figcaption></figcaption></figure>
 
-Nas configurações tem nova opção onde você pode configurar, depois configurado ao preencher texto vai aparecer botão acima. Pode ser usado Groq ou Openai.
+Nas configurações tem nova opção onde você pode configurar, depois configurado ao preencher texto vai aparecer botão acima. Pode ser usado Groq , Openai ou Gemini.
 
 Sugestão de Prompt Corrija o texto a seguir em português brasileiro, mantendo o conteúdo original. Apenas melhore a ortografia, gramática e fluidez, sem adicionar, remover ou alterar informações. Retorne somente o texto corrigido, pronto para ser enviado ao cliente e inclua ocasionalmente algum emoji.
 
