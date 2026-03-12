@@ -30,6 +30,7 @@
   * [Bull Board](instalacao-and-vps/ativar_acesso_bull_board.md)
   * [Portainer](instalacao-and-vps/como-acessar-o-portainer.md)
   * [Proxy para Contas WhatsApp](instalacao-and-vps/proxytodascontas_whatsapp.md)
+  * [Configurar Controle de Acesso à Pasta Public (.env)](instalacao-and-vps/configurar-controle-de-acesso-a-pasta-public-.env.md)
 * [SaaS](modulo-saas/README.md)
   * [Mensagem de boas vindas teste](modulo-saas/mensagem-boas-vindas-teste.md)
   * [Como Criar a Opção de Ajuda](modulo-saas/criarajuda.md)
