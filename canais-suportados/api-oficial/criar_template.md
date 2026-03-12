@@ -1,12 +1,43 @@
 # Como criar template
 
-Os **templates do WhatsApp** são mensagens pré-aprovadas pelo Meta, obrigatórias para iniciar conversas ou enviar campanhas pela **API Oficial**.
+## Templates do WhatsApp (API Oficial)
 
-Abaixo você aprende **como criar**, **aprovar**, **sincronizar** e **enviar** seus templates no Whazing.
+Os **templates do WhatsApp** são mensagens **pré-aprovadas pelo Meta**.
+
+Eles são obrigatórios para:
+
+* **Iniciar uma conversa com o cliente**
+* **Enviar campanhas pela API Oficial**
+
+No **Whazing**, você pode usar templates de duas formas:
+
+1️⃣ Criando diretamente no **Meta (Facebook Business)**&#x20;
+
+2️⃣ Criando **templates simples diretamente no Whazing (conexão direta sem HUB)**
 
 ***
 
 ## ✅ Como criar meus templates no Meta
+
+## Conexão direta sem HUB
+
+Quando o WhatsApp está conectado **diretamente ao Whazing (sem HUB intermediário)**, é possível criar **templates simples dentro da própria plataforma**.
+
+Para isso:
+
+1. Acesse **Configurações**
+2. Clique em **Canais / API**
+3. Acesse **Templates**
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Nesta área você pode:
+
+* Criar templates simples
+* Editar templates
+* Gerenciar templates utilizados nas campanhas e atendimentos
+
+## Criando templates pelo Meta (Facebook Business)
 
 ### 1️⃣ Acesse o Gerenciador de Templates do WhatsApp
 
@@ -109,7 +140,7 @@ Com um ticket aberto:
 1. Clique no botão **“+”**
 2. Selecione **Enviar Template**
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

@@ -9,7 +9,7 @@ Esse recurso ajuda a:
 * 🗂️ Evitar tickets esquecidos
 * 🔒 Encerrar atendimentos inativos de forma organizada
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
