@@ -57,7 +57,7 @@ No **GLPI**, acesse:
 
 > **Configurar → Geral → API**
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### ✅ Ativar a API
 
@@ -75,7 +75,7 @@ https://seudominio.com.br/glpi/apirest.php
 
 1. Clique em **Adicionar Cliente de API**
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Deixe o campo **IP em branco** (ou informe o IP da sua VPS)
 3. Marque como **Ativo**
@@ -88,7 +88,7 @@ Depois:
 * Clique no cliente recém-criado
 * Copie o campo **Token da Aplicação**
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
