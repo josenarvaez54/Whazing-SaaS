@@ -33,7 +33,7 @@ Depois:
 
 1. Clique em **Add Widget / Adicionar Widget**
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ## 2️⃣ Criar o Widget
 
@@ -62,7 +62,7 @@ app.seusistema.com
 painel.seusistema.com
 ```
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -73,7 +73,7 @@ O Cloudflare oferece alguns modos de funcionamento.
 ✅ **Recomendado:**\
 Use **Gerenciado**, pois é o modo mais equilibrado entre segurança e usabilidade.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -158,7 +158,7 @@ Antes de sair da conta:
 
 Se funcionar normalmente, a configuração está correta.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

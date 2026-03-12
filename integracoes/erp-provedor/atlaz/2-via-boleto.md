@@ -17,7 +17,7 @@ No painel da Atlaz, siga o caminho:
 
 **Painel → Configurações → Recursos**
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 🔑 Copiar o Token da API
 
@@ -39,7 +39,7 @@ Clique em **Adicionar** e selecione:
 
 👉 **2ª via boleto Atlaz**
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -92,7 +92,7 @@ Algumas opções podem ser ativadas conforme sua necessidade:
 
 ⚠️ Se ativar uma opção que o canal **não suporta**, a mensagem **não será entregue**.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -110,7 +110,7 @@ Agora vamos criar a fila que vai usar essa integração.
 
     **“Inicia integração ao transferir”**
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -127,7 +127,7 @@ Exemplo de mensagem:
 
 > “Para localizar seus boletos, por favor informe seu CPF ou CNPJ.”
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

@@ -17,7 +17,7 @@ No cadastro de usuários temos novos campos
 
 Em relatórios é possível encontrar um relatório das chamadas recebidas e efetuadas
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Caso precisar de um servidor pode está conversando com:
 

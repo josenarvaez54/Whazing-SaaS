@@ -47,6 +47,7 @@
   * [Envio WhatsApp aviso fatura em aberto](modulo-saas/envio-whatsapp-aviso-fatura-em-aberto.md)
   * [Armazenamento S3](modulo-saas/armazenamento-s3.md)
   * [Ativar Cloudflare Turnstile (Proteção Anti-Bot](modulo-saas/ativar-cloudflare-turnstile-protecao-anti-bot.md)
+  * [Programa de Afiliados (Indique e Ganhe)](modulo-saas/programa-de-afiliados-indique-e-ganhe.md)
 * [Canais Disponíveis](canais-suportados/README.md)
   * [Api Oficial](canais-suportados/api-oficial/README.md)
     * [API Oficial do WhatsApp (Meta)](canais-suportados/api-oficial/api-oficial-do-whatsapp-meta.md)
