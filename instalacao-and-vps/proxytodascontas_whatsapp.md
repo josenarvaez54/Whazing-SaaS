@@ -3,40 +3,131 @@ description: Como Configurar Proxy para Conexões do WhatsApp
 icon: network-wired
 ---
 
-# Proxy para Contas WhatsApp
+# Configurar Proxy para Conexões do WhatsApp
 
-### **Como Configurar Proxy para Conexões do WhatsApp**
+O sistema permite configurar **proxy para conexões do WhatsApp**, aumentando a segurança e permitindo melhor controle de rede.
 
-#### **Objetivo**
+O proxy pode ser configurado de **duas formas**:
 
-O uso de um proxy nas conexões do WhatsApp pode aumentar a segurança e melhorar o controle das comunicações.
+1. **Globalmente no arquivo `.env`**
+2. **Individualmente por canal nas configurações**
 
-### Suporte canal Bayleys, Wuzapi
+Suporte para:
 
-O sistema valida se proxy valido para evitar erros conexão em caso problemas desativa proxy automatico configurando no canal.
+* Baileys
+* Wuzapi
 
-#### **Passo a Passo para Configuração no Linux (Exemplo com o Bitvise)**
+***
 
-1. **Estabeleça a Conexão**:
-   * Utilize um aplicativo como o **Bitvise** para se conectar ao Linux.
-   * Faça login com o **usuário deploy** para evitar problemas relacionados a permissões.
-2. **Configure o Arquivo .env**:
-   * No Bitvise, abra o "New SFTP Window" e navegue até o diretório `/home/deploy/whazing/backend`.
-   * Localize o arquivo `.env`, clique com o botão direito do mouse e selecione **Editar**.
-   * Adicione as seguintes linhas ao arquivo:
+## 📌 Informações importantes sobre Proxy
 
-```bash
+⚠️ **Sempre reinicie a conexão após alterar proxy**
+
+O sistema possui mecanismos automáticos de segurança:
+
+🔒 **Proxy inválido**
+
+* Se o proxy configurado for inválido, o sistema **desativa automaticamente**.
+
+🔄 **Erro de conexão**
+
+* Se houver falha de conexão usando proxy, o sistema:
+  1. remove o proxy automaticamente
+  2. tenta conectar **sem proxy**
+
+Isso evita que a conexão do WhatsApp fique offline.
+
+***
+
+## 📍 Quando usar Proxy
+
+Recomendado quando:
+
+* você usa **servidores em cloud**
+* quer **reduzir risco de bloqueio**
+* precisa **gerenciar múltiplos números**
+* deseja **separar IP das conexões**
+
+***
+
+## ⚙️ Método 1 — Configurar Proxy no `.env`
+
+Esta configuração aplica **proxy global para todas as conexões**.
+
+***
+
+## 1️⃣ Acessar o servidor
+
+Conecte no servidor usando SSH ou SFTP.
+
+Um cliente comum é o **Bitvise SSH Client**.
+
+***
+
+## 2️⃣ Localizar o arquivo `.env`
+
+Caminho padrão:
+
+```
+/home/deploy/whazing/backend/.env
+```
+
+***
+
+## 3️⃣ Editar o arquivo `.env`
+
+Abra o arquivo e adicione:
+
+```env
 # Configurar proxy para conexões do WhatsApp
 PROXY_URL=socks5://127.0.0.1:9150
-# Validar se proxy do .env e valido
+
+# Validar se proxy do .env é válido
 PROXY_URL_VALID=true
 ```
 
-* **Nota Importante**: Certifique-se de configurar corretamente o proxy e utilizar credenciais seguras, caso seja necessário.
+***
 
-3. **Salve e Reinicie os Serviços**:
-   * Após editar o arquivo `.env`, salve as alterações.
-   * Reinicie os serviços executando o comando abaixo no terminal:
+## 📌 Explicação dos parâmetros
+
+| Configuração      | Função                     |
+| ----------------- | -------------------------- |
+| PROXY\_URL        | endereço do proxy          |
+| PROXY\_URL\_VALID | ativa validação automática |
+
+***
+
+## 📌 Exemplos de Proxy
+
+#### SOCKS5
+
+```
+socks5://127.0.0.1:9150
+```
+
+#### Proxy com usuário e senha
+
+```
+socks5://usuario:senha@127.0.0.1:9150
+```
+
+#### HTTP Proxy
+
+```
+http://127.0.0.1:8080
+```
+
+***
+
+## 4️⃣ Salvar alterações
+
+Depois de editar o `.env`, salve o arquivo.
+
+***
+
+## 5️⃣ Reiniciar backend
+
+Execute:
 
 ```bash
 docker container restart whazing-backend
@@ -44,29 +135,161 @@ docker container restart whazing-backend
 
 ***
 
-#### **Método Alternativo: Configuração Direta pelo Terminal**
+## ⚙️ Método 2 — Configurar Proxy por Canal
 
-1. **Edite o Arquivo .env**:
-   * No terminal, utilize o comando abaixo para abrir o arquivo `.env`:
+Outra opção é configurar **proxy individualmente em cada canal**.
 
-```bash
-nano /home/deploy/whazing/backend/.env
+Isso permite usar **IPs diferentes para cada número de WhatsApp**.
+
+***
+
+## 1️⃣ Acessar painel do sistema
+
+Abra o painel administrativo.
+
+Caminho:
+
+```
+Configurações → Canais-API
 ```
 
-* Adicione as linhas de configuração do proxy:
+***
+
+## 2️⃣ Configurações
+
+Selecione o canal desejado e clique em **configurações**.
+
+***
+
+## 3️⃣ Adicionar proxy
+
+No campo de proxy adicione o endereço.
+
+Exemplo:
+
+```
+socks5://127.0.0.1:9150
+```
+
+***
+
+## ⚠️ Importante
+
+Após alterar proxy no canal:
+
+🔄 **É necessário reiniciar a conexão do WhatsApp**
+
+Isso aplica a nova configuração.
+
+***
+
+## 🔎 Validação automática do Proxy
+
+O sistema possui proteção automática.
+
+Se o proxy apresentar erro:
+
+1️⃣ o sistema detecta falha\
+2️⃣ remove o proxy\
+3️⃣ tenta conectar sem proxy
+
+Isso evita que o WhatsApp fique desconectado.
+
+***
+
+## 🧪 Como testar se proxy está funcionando
+
+Após configurar:
+
+1. reinicie a conexão do WhatsApp
+2. observe os logs do sistema
+
+Execute:
 
 ```bash
-# Configurar proxy para conexões do WhatsApp
+docker logs --tail 100 -f whazing-backend
+```
+
+***
+
+## ⚠️ Problemas comuns
+
+#### Proxy não conecta
+
+Verifique:
+
+* IP
+* Porta
+* Usuário e senha
+* Tipo de proxy
+
+***
+
+#### WhatsApp não conecta com proxy
+
+Pode ser:
+
+* proxy bloqueando websocket
+* proxy lento
+* proxy inválido
+
+O sistema irá **remover automaticamente o proxy**.
+
+***
+
+## ✔️ Resumo da Configuração
+
+#### Proxy global
+
+```env
 PROXY_URL=socks5://127.0.0.1:9150
+PROXY_URL_VALID=true
 ```
 
-* **Nota**: Ajuste os valores conforme a configuração específica do proxy utilizado.
+***
 
-2. **Salve as Alterações**:
-   * Pressione `Ctrl + X`, confirme com `Y` e pressione `Enter` para salvar o arquivo.
-3. **Reinicie os Serviços**:
-   * Execute o seguinte comando para reiniciar todos os serviços:
+#### Reiniciar backend
 
 ```bash
 docker container restart whazing-backend
 ```
+
+***
+
+#### Proxy por canal
+
+Painel:
+
+```
+Configurações → Canais → Configurações
+```
+
+Adicionar proxy.
+
+***
+
+## 💡 Boas práticas
+
+* utilize **proxy SOCKS5**
+* evite proxies gratuitos
+* use **IPs dedicados**
+* monitore logs regularmente
+* use proxy residencial
+
+Alguns fornecedores proxy
+
+{% embed url="https://iproyal.com/" %}
+
+{% embed url="https://brightdata.com/" %}
+
+{% embed url="https://www.webshare.io/" %}
+
+***
+
+✅ Com proxy configurado corretamente você terá:
+
+* maior estabilidade
+* melhor controle de IP
+* redução de bloqueios do WhatsApp
+
+***
