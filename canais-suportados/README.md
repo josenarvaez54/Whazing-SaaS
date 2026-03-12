@@ -16,8 +16,9 @@ O sistema suporta diferentes tipos de canais de atendimento, cada um com suas ca
 
 ### ✅ API Não Oficial (gratuita)
 
-* **WhatsApp (Baileys)** ou [**Telegram**](telegram.md)
+* **WhatsApp Baileys - Não recomendamos uso dessa api prefira WuzAPI**&#x20;
 * [WhatsApp Wuzapi (WhatsMeow)](whatsapp-wuzapi.md)
+* [**Telegram**](telegram.md)
 * Sem custo por canal
 * Sem limite de usuários ou canais (limitado apenas pela capacidade da VPS)
 
