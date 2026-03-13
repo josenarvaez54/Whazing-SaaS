@@ -67,7 +67,7 @@ A versão Premium possui as seguintes características:
 
 * não contém anúncios ou propagandas automáticas
 * exige pagamento recorrente conforme plano vigente
-* inclui suporte coletivo através do grupo oficial no WhatsApp
+* inclui suporte coletivo através do grupo oficial no Telegram
 
 Suporte adicional:
 
