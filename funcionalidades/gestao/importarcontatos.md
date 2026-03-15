@@ -74,4 +74,4 @@ Maria Silva;55999999999;maria@email.com;ACME Ltda;10/10/1990;Gerente;Florianópo
 
 ✅ O sistema valida e **importa apenas números com WhatsApp ativo**. ✅ Arquivos fora do padrão podem causar falhas na importação. ✅ Revise os dados antes de enviar para **evitar troca de dados de contatos**. ✅ Prefira editores que respeitem a formatação CSV com ponto e vírgula.
 
-> 💬 Em caso de dúvidas, consulte nossa documentação oficial ou entre no grupo de suporte: 👉 [https://grupo.whazing.com.br](https://grupo.whazing.com.br)
+> 💬 Em caso de dúvidas, consulte nossa documentação oficial ou entre no grupo de suporte.

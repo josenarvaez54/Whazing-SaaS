@@ -10,8 +10,6 @@ O Whazing é a solução completa para gerenciar múltiplos canais de atendiment
 
 Entre na nossa comunidade para suporte e novidades. Aprenda como instalar e configurar o sistema. Link abaixo para acessar nosso grupo.
 
-[![Grupo do WhatsApp](https://img.shields.io/badge/WhatsApp-Grupo%20Whazing-brightgreen.svg)](https://grupo.whazing.com.br)
-
 #### 🚀 Demo do Produto <a href="#demo-do-produto" id="demo-do-produto"></a>
 
 * [https://teste.whazing.com.br/](https://teste.whazing.com.br/)

@@ -207,7 +207,7 @@ Se aparecer algo como:
 
 Se mesmo após seguir todos os passos o problema continuar:
 
-👉 Acesse o grupo de suporte: 🔗 [https://grupo.whazing.com.br](https://grupo.whazing.com.br)
+👉 Acesse o grupo de suporte
 
 ### Envie o máximo de informações possíveis:
 
