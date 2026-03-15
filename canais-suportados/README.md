@@ -86,6 +86,15 @@ Usar cupom desconto: whazing
 
 ***
 
+### 💼 API Oficial via HUB WHAZING (paga)
+
+Whatsapp
+
+* Sem taxa de ativação
+* Mensalidade: **R$ 20,00 por canal conectado**
+
+***
+
 ### API Oficial da Meta (WABA)
 
 * **WhatsApp Business API (Meta Oficial)**

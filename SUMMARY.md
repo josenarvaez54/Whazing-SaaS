@@ -51,6 +51,7 @@
   * [Criação de Planos - Financeiro](modulo-saas/criacao-de-planos-financeiro.md)
 * [Canais Disponíveis](canais-suportados/README.md)
   * [Api Oficial](canais-suportados/api-oficial/README.md)
+    * [HUB Whazing](canais-suportados/api-oficial/hub-whazing.md)
     * [API Oficial do WhatsApp (Meta)](canais-suportados/api-oficial/api-oficial-do-whatsapp-meta.md)
     * [Whatsapp API OFICIAL VIA HUB](canais-suportados/api-oficial/api-oficial/README.md)
       * [Modo Fallback](canais-suportados/api-oficial/api-oficial/fallback.md)
