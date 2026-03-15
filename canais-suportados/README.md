@@ -14,6 +14,10 @@ O sistema suporta diferentes tipos de canais de atendimento, cada um com suas ca
 
 ***
 
+📲 Caso precise de um número para utilizar no sistema, você pode adquirir facilmente através do portal: https://telera.whazing.com.br
+
+***
+
 ### ✅ API Não Oficial (gratuita)
 
 * **WhatsApp Baileys - Não recomendamos uso dessa api prefira WuzAPI**&#x20;
@@ -132,8 +136,3 @@ Whatsapp
 | **Hub NotificaMe** (WhatsApp, IG, FB, Webchat)                                                           | Paga     | Ativação + mensalidade R$ 50/canal | Recursos oficiais (via hub)        | Suporte multiplataforma            |
 | **Hub ConnectionHub** (IG, FB)                                                                           | Paga     | mensalidade R$ 25/canal            | Recursos oficiais (via hub)        | Suporte multiplataforma            |
 | **API Oficial Meta (WABA)**                                                                              | Paga     | Conforme uso da API (Meta)         | Templates, botões, multimídia      | Oficial, maior garantia, escalável |
-
-***
-
-📲 Caso precise de um número para utilizar no sistema, você pode adquirir facilmente através do portal:\
-https://telera.whazing.com.br
