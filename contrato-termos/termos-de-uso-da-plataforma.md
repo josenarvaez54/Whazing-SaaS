@@ -153,7 +153,66 @@ Suporte técnico **individual ou especializado** poderá ser cobrado como **hora
 
 ***
 
-## 7. Serviços de Terceiros e Custos Externos
+### 7. Regras da Comunidade e Grupos Oficiais
+
+Os grupos oficiais vinculados ao software têm como objetivo promover suporte coletivo, troca de conhecimento e colaboração entre usuários.
+
+Ao participar de qualquer grupo oficial relacionado ao sistema, o usuário concorda em seguir as regras de convivência abaixo.
+
+#### 7.1 Conduta e Respeito
+
+Os participantes devem manter um ambiente respeitoso e colaborativo.
+
+Não são permitidos:
+
+* ofensas pessoais
+* linguagem agressiva ou discriminatória
+* discussões que não contribuam para o propósito do grupo
+
+Todos os membros devem agir com educação e respeito.
+
+#### 7.2 Proibições
+
+Nos grupos oficiais é expressamente proibido:
+
+* entrar em contato com membros no privado sem autorização prévia
+* divulgar links de grupos de Telegram, WhatsApp ou outras comunidades
+* realizar propaganda, autopromoção ou divulgação de serviços sem autorização
+* enviar ofertas comerciais não solicitadas a outros membros
+* praticar qualquer tipo de golpe, fraude ou tentativa de obtenção indevida de vantagem
+
+#### 7.3 Ofertas de Serviços entre Membros
+
+Caso um membro necessite de algum serviço técnico ou profissional, deverá manifestar publicamente no grupo que está buscando o serviço.
+
+Somente após essa manifestação, outros membros poderão oferecer ajuda ou entrar em contato no privado, caso haja interesse explícito do solicitante.
+
+A desenvolvedora do software não participa, intermedeia ou garante qualquer negociação realizada entre membros.
+
+#### 7.4 Responsabilidade por Negociações
+
+Qualquer negociação, contratação ou pagamento realizado entre membros é de responsabilidade exclusiva das partes envolvidas.
+
+A administração dos grupos e a desenvolvedora do software não se responsabilizam por:
+
+* prejuízos financeiros
+* serviços não entregues
+* golpes ou fraudes praticadas entre usuários
+
+#### 7.5 Moderação e Penalidades
+
+O descumprimento das regras poderá resultar em medidas administrativas, incluindo:
+
+* advertência
+* remoção de mensagens
+* restrição de participação
+* banimento imediato do grupo
+
+A decisão de moderação é de responsabilidade exclusiva da administração.
+
+***
+
+## 8. Serviços de Terceiros e Custos Externos
 
 O cliente reconhece que diversas funcionalidades dependem de **serviços externos não incluídos na licença**, como:
 
@@ -181,7 +240,7 @@ Toda a infraestrutura é **responsabilidade do cliente**.
 
 ***
 
-## 8. Propriedade Intelectual
+## 9. Propriedade Intelectual
 
 Todo o software, incluindo:
 
@@ -206,7 +265,7 @@ Qualquer violação poderá resultar em **medidas legais civis e penais**.
 
 ***
 
-## 9. Uso Permitido e Responsabilidade do Usuário
+## 10. Uso Permitido e Responsabilidade do Usuário
 
 O usuário concorda em:
 
@@ -224,7 +283,7 @@ O usuário é integralmente responsável por:
 
 ***
 
-## 10. Uso de APIs de Mensageria e Risco de Bloqueios
+## 11. Uso de APIs de Mensageria e Risco de Bloqueios
 
 O sistema pode integrar-se com plataformas como:
 
@@ -248,7 +307,7 @@ Portanto, **não há garantia de funcionamento contínuo dessas integrações**.
 
 ***
 
-## 11. Limitação de Responsabilidade
+## 12. Limitação de Responsabilidade
 
 A desenvolvedora não se responsabiliza por:
 
@@ -262,7 +321,7 @@ Na máxima extensão permitida por lei, a responsabilidade da empresa será **li
 
 ***
 
-## 12. Política de Chargeback
+## 13. Política de Chargeback
 
 Caso o usuário realize **contestação de pagamento (chargeback)** junto ao meio de pagamento, a empresa poderá:
 
@@ -274,7 +333,7 @@ Chargebacks após a ativação da licença podem ser considerados **uso indevido
 
 ***
 
-## 13. Alterações nos Termos
+## 14. Alterações nos Termos
 
 A empresa pode atualizar estes Termos de Uso a qualquer momento.
 
@@ -284,7 +343,7 @@ O uso contínuo do sistema após alterações implica **aceitação automática 
 
 ***
 
-## 14. Aceitação Final
+## 15. Aceitação Final
 
 O uso do software é permitido somente mediante **aceitação total e irrestrita destes Termos de Uso**.
 
