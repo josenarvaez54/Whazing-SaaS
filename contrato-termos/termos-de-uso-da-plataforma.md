@@ -153,7 +153,7 @@ Suporte técnico **individual ou especializado** poderá ser cobrado como **hora
 
 ***
 
-### 7. Regras da Comunidade e Grupos Oficiais
+## 7. Regras da Comunidade e Grupos Oficiais
 
 Os grupos oficiais vinculados ao software têm como objetivo promover suporte coletivo, troca de conhecimento e colaboração entre usuários.
 
@@ -207,6 +207,7 @@ O descumprimento das regras poderá resultar em medidas administrativas, incluin
 * remoção de mensagens
 * restrição de participação
 * banimento imediato do grupo
+* bloqueio da licença
 
 A decisão de moderação é de responsabilidade exclusiva da administração.
 
