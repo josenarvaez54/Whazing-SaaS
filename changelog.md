@@ -1,8 +1,18 @@
 # Changelog e Atualizações
 
-## 🚀 Versão 2.16.2 FINAL – Changelog - 11/03/26
+## 🚀 Versão 2.16.3 FINAL – Changelog
+- bug - não carrega ticket quando tem muitas informações adicionais
 - bug - correção bug download pdf
-- bug - troca versão baileys anterior parece ta muito ruim
+
+## 🚀 Versão 2.17.1 BETA – Changelog
+- painel atendimento aparece tickets pendentes primeiro
+- atualização automatica webhook waba ao receniar conexões ou whazing
+- botão voltar arquivos e base de conhecimento
+- bug beta - não envia sticket webp
+- bug - carregamento contatos modo celular, deixava lento muitos contato pois carrega todos
+- bug beta - opção espiar ticket usuario sem funcionar
+- bug beta - opção ocultar telefone sem funcionar
+- bug - não carrega ticket quando tem muitas informações adicionais
 
 ## 🚀 Versão 2.17.0 BETA – Changelog
 
