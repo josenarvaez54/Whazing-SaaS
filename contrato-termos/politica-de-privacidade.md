@@ -41,7 +41,11 @@ Esses dados são usados exclusivamente para estabilidade, desempenho e seguranç
 
 Qualquer dado cadastrado pelo cliente (contatos, mensagens, configurações etc.) é armazenado **localmente**, na infraestrutura do próprio usuário.
 
-A empresa **não coleta, armazena ou acessa** dados pessoais inseridos na instalação do cliente.
+A empresa desenvolvedora não possui acesso direto aos dados armazenados na instalação do cliente, 
+uma vez que esses dados permanecem na infraestrutura do próprio usuário.
+
+O acesso a essas informações poderá ocorrer somente quando autorizado expressamente 
+pelo cliente para fins de suporte técnico, diagnóstico ou manutenção.
 
 ***
 
