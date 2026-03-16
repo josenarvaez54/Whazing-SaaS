@@ -37,7 +37,7 @@ O Licenciante oferece serviços de instalação do software, cujos valores são:
 
 **5. Limitações da Versão Grátis**
 
-A Versão Grátis do software possui as seguintes limitações:\
+A Versão Grátis do software possui as seguintes limitações:
 Exibe anúncios do Whazing.
 
 * Envia automaticamente propaganda em: • Primeira mensagem de novos tickets • Mensagens via API • Mensagens agendadas • Follow-ups
