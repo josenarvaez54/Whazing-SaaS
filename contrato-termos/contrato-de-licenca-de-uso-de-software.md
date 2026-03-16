@@ -63,9 +63,12 @@ O Licenciante reserva-se o direito de rescindir o Contrato e revogar a licença 
 
 O Licenciante não se responsabiliza por quaisquer danos diretos ou indiretos decorrentes do uso do software, incluindo, mas não se limitando a, perda de dados, interrupção de negócios ou outros prejuízos.
 
-**10. Disposições Gerais**
+**10. Atualizações do Contrato**
 
-Este Contrato constitui o entendimento completo entre as partes e substitui quaisquer acordos anteriores, verbais ou escritos, relativos ao objeto deste Contrato. Qualquer modificação deste Contrato deve ser feita por escrito e assinada por ambas as partes.
+Este Contrato constitui o entendimento completo entre as partes e substitui quaisquer acordos anteriores, verbais ou escritos relativos ao objeto deste Contrato.
+O Licenciante poderá atualizar ou modificar este Contrato a qualquer momento, mediante publicação da nova versão nos canais oficiais ou na documentação do software.
+É responsabilidade do Licenciado consultar periodicamente a versão mais recente do Contrato.
+A continuidade do uso do software após a publicação de alterações constitui aceitação automática das novas condições.
 
 **11. Legislação Aplicável e Foro**
 
