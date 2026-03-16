@@ -1,8 +1,8 @@
 # Termos de Uso da Plataforma
 
 Versão 1.0
-Data de vigência: 14 de março de 2026
-Última atualização: 14 de março de 2026
+Data de vigência: 16 de março de 2026
+Última atualização: 16 de março de 2026
 
 > Este software é uma ferramenta tecnológica fornecida **"no estado em que se encontra"**.
 > Não garantimos resultados comerciais, entregabilidade de mensagens ou funcionamento contínuo de integrações com plataformas de terceiros.
