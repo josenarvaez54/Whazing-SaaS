@@ -1,14 +1,15 @@
 # Termos de Uso da Plataforma
+
 Versão 1.0
 Data de vigência: 14 de março de 2026
-Última atualização: 14 de março de 2026
+Última atualização: 16 de março de 2026
 
-> Este software é uma ferramenta tecnológica fornecida **"no estado em que se encontra"**.\
+> Este software é uma ferramenta tecnológica fornecida **"no estado em que se encontra"**.
 > Não garantimos resultados comerciais, entregabilidade de mensagens ou funcionamento contínuo de integrações com plataformas de terceiros.
 
-***
+---
 
-## 1. Aceitação dos Termos
+# 1. Aceitação dos Termos
 
 Ao utilizar este software, o usuário declara ter lido, compreendido e concordado integralmente com estes Termos de Uso.
 
@@ -16,30 +17,32 @@ Caso não concorde com qualquer condição aqui descrita, o uso deve ser imediat
 
 O uso contínuo do software implica **aceitação automática de quaisquer atualizações destes termos**.
 
-***
+---
 
-## 2. Validação de Licença e Coleta de Informações
+# 2. Validação de Licença e Coleta de Informações
 
 O sistema utiliza um **validador de licença** que coleta informações necessárias para verificar a legitimidade da instalação e o cumprimento das condições contratuais.
 
 Entre os dados coletados estão:
 
-* Endereço IP da instalação
+* endereço IP da instalação
 * URL associada
-* Versão do software em uso
-* Identificadores internos gerados pelo sistema
+* versão do software em uso
+* identificadores internos gerados pelo sistema
 
-Esses dados são utilizados exclusivamente para fins de:
+Esses dados são utilizados exclusivamente para:
 
 * validação de licença
 * segurança do sistema
 * controle de uso da plataforma
 
-***
+Essas informações **não incluem dados de clientes finais ou mensagens trocadas na plataforma**.
 
-## 3. Versões do Software
+---
 
-### 3.1 Versão Grátis 🆓
+# 3. Versões do Software
+
+## 3.1 Versão Grátis 🆓
 
 A versão gratuita é disponibilizada para **testes e avaliação do sistema**.
 
@@ -62,9 +65,9 @@ A versão gratuita **não inclui**:
 * personalizações
 * atualizações sob demanda
 
-***
+---
 
-### 3.2 Versão Premium 💎
+## 3.2 Versão Premium 💎
 
 A versão Premium possui as seguintes características:
 
@@ -72,20 +75,20 @@ A versão Premium possui as seguintes características:
 * exige pagamento recorrente conforme plano vigente
 * inclui suporte coletivo através do grupo oficial no Telegram
 
-Suporte adicional:
+Suporte adicional como:
 
 * suporte individual
 * suporte remoto
 * suporte emergencial
 * suporte personalizado
 
-Esses serviços **podem ser cobrados separadamente como hora técnica**.
+poderá ser cobrado separadamente como **hora técnica**.
 
 A instalação, atualização, configuração e manutenção da infraestrutura são **responsabilidade exclusiva do cliente**.
 
-***
+---
 
-## 4. Política de Pagamentos e Reembolsos
+# 4. Política de Pagamentos e Reembolsos
 
 O sistema disponibiliza uma **versão gratuita para testes**.
 
@@ -103,9 +106,9 @@ Isso inclui, mas não se limita a:
 * incompatibilidade com servidores do usuário
 * falta de utilização do sistema após a compra
 
-***
+---
 
-## 5. Atendimento Comercial, Administrativo e Liberação de Acesso Premium
+# 5. Atendimento Comercial, Administrativo e Liberação de Acesso Premium
 
 Este setor abrange:
 
@@ -118,8 +121,8 @@ Este setor abrange:
 
 Horário de atendimento:
 
-**Segunda a sexta-feira**\
-08:00 às 18:00\
+**Segunda a sexta-feira**
+08:00 às 18:00
 (exceto feriados)
 
 Prazo médio de resposta:
@@ -133,9 +136,9 @@ A liberação ou renovação do acesso Premium depende de:
 * confirmação de pagamento
 * validações internas do sistema
 
-***
+---
 
-## 6. Suporte Técnico
+# 6. Suporte Técnico
 
 O suporte técnico incluído na versão Premium possui as seguintes características:
 
@@ -154,15 +157,15 @@ O suporte **não inclui**:
 
 Suporte técnico **individual ou especializado** poderá ser cobrado como **hora técnica adicional**.
 
-***
+---
 
-## 7. Regras da Comunidade e Grupos Oficiais
+# 7. Regras da Comunidade e Grupos Oficiais
 
 Os grupos oficiais vinculados ao software têm como objetivo promover suporte coletivo, troca de conhecimento e colaboração entre usuários.
 
 Ao participar de qualquer grupo oficial relacionado ao sistema, o usuário concorda em seguir as regras de convivência abaixo.
 
-#### 7.1 Conduta e Respeito
+## 7.1 Conduta e Respeito
 
 Os participantes devem manter um ambiente respeitoso e colaborativo.
 
@@ -174,7 +177,7 @@ Não são permitidos:
 
 Todos os membros devem agir com educação e respeito.
 
-#### 7.2 Proibições
+## 7.2 Proibições
 
 Nos grupos oficiais é expressamente proibido:
 
@@ -184,39 +187,39 @@ Nos grupos oficiais é expressamente proibido:
 * enviar ofertas comerciais não solicitadas a outros membros
 * praticar qualquer tipo de golpe, fraude ou tentativa de obtenção indevida de vantagem
 
-#### 7.3 Ofertas de Serviços entre Membros
+## 7.3 Ofertas de Serviços entre Membros
 
 Caso um membro necessite de algum serviço técnico ou profissional, deverá manifestar publicamente no grupo que está buscando o serviço.
 
-Somente após essa manifestação, outros membros poderão oferecer ajuda ou entrar em contato no privado, caso haja interesse explícito do solicitante.
+Somente após essa manifestação, outros membros poderão oferecer ajuda ou entrar em contato no privado.
 
-A desenvolvedora do software não participa, intermedeia ou garante qualquer negociação realizada entre membros.
+A desenvolvedora **não intermedeia negociações entre membros**.
 
-#### 7.4 Responsabilidade por Negociações
+## 7.4 Responsabilidade por Negociações
 
-Qualquer negociação, contratação ou pagamento realizado entre membros é de responsabilidade exclusiva das partes envolvidas.
+Qualquer negociação realizada entre membros é de responsabilidade exclusiva das partes envolvidas.
 
-A administração dos grupos e a desenvolvedora do software não se responsabilizam por:
+A administração dos grupos e a desenvolvedora não se responsabilizam por:
 
 * prejuízos financeiros
 * serviços não entregues
 * golpes ou fraudes praticadas entre usuários
 
-#### 7.5 Moderação e Penalidades
+## 7.5 Moderação e Penalidades
 
-O descumprimento das regras poderá resultar em medidas administrativas, incluindo:
+O descumprimento das regras poderá resultar em:
 
 * advertência
 * remoção de mensagens
 * restrição de participação
-* banimento imediato do grupo
+* banimento do grupo
 * bloqueio da licença
 
-A decisão de moderação é de responsabilidade exclusiva da administração.
+A decisão de moderação é exclusiva da administração.
 
-***
+---
 
-## 8. Serviços de Terceiros e Custos Externos
+# 8. Serviços de Terceiros e Custos Externos
 
 O cliente reconhece que diversas funcionalidades dependem de **serviços externos não incluídos na licença**, como:
 
@@ -240,11 +243,9 @@ A desenvolvedora **não se responsabiliza por:**
 * limitações de uso
 * instabilidades ou quedas de serviço
 
-Toda a infraestrutura é **responsabilidade do cliente**.
+---
 
-***
-
-## 9. Propriedade Intelectual
+# 9. Propriedade Intelectual
 
 Todo o software, incluindo:
 
@@ -256,38 +257,44 @@ Todo o software, incluindo:
 
 pertence exclusivamente à desenvolvedora.
 
-É estritamente proibido:
+É proibido:
 
 * copiar o software
-* modificar o sistema para redistribuição
+* modificar para redistribuição
 * revender sem autorização
 * remover proteções de licença
 * executar engenharia reversa
-* remover menções obrigatórias à marca na versão gratuita
+* remover menções obrigatórias da versão gratuita
 
-Qualquer violação poderá resultar em **medidas legais civis e penais**.
+Violações podem resultar em **medidas legais civis e penais**.
 
-***
+---
 
-## 10. Uso Permitido e Responsabilidade do Usuário
+# 10. Uso Permitido e Responsabilidade do Usuário
 
 O usuário concorda em:
 
 * utilizar o software de forma responsável
 * cumprir a legislação vigente
 * respeitar normas de privacidade e proteção de dados
-* manter sua infraestrutura funcional
+
+É proibido utilizar a plataforma para:
+
+* envio de **spam ou mensagens em massa não autorizadas**
+* golpes ou fraudes
+* atividades ilegais
+* coleta indevida de dados pessoais
+* violação de políticas de plataformas integradas
 
 O usuário é integralmente responsável por:
 
-* danos causados por uso inadequado
-* falhas provocadas por má configuração
-* conteúdo enviado pela plataforma
-* cumprimento das leis aplicáveis ao seu negócio
+* todo conteúdo enviado pela plataforma
+* listas de contatos utilizadas
+* cumprimento da **LGPD e demais legislações aplicáveis**
 
-***
+---
 
-## 11. Uso de APIs de Mensageria e Risco de Bloqueios
+# 11. Uso de APIs de Mensageria e Risco de Bloqueios
 
 O sistema pode integrar-se com plataformas como:
 
@@ -296,22 +303,18 @@ O sistema pode integrar-se com plataformas como:
 * Facebook
 * outras APIs de mensageria
 
-Essas plataformas possuem **políticas próprias de uso**.
-
-Elas podem aplicar:
+Essas plataformas possuem **políticas próprias de uso** e podem aplicar:
 
 * bloqueios
 * limitações de envio
 * suspensões de conta
-* banimento definitivo de números ou perfis
+* banimento de números ou perfis
 
-A desenvolvedora **não possui controle sobre essas plataformas**.
+A desenvolvedora **não possui controle sobre essas plataformas** e **não garante funcionamento contínuo dessas integrações**.
 
-Portanto, **não há garantia de funcionamento contínuo dessas integrações**.
+---
 
-***
-
-## 12. Limitação de Responsabilidade
+# 12. Limitação de Responsabilidade
 
 A desenvolvedora não se responsabiliza por:
 
@@ -323,9 +326,9 @@ A desenvolvedora não se responsabiliza por:
 
 Na máxima extensão permitida por lei, a responsabilidade da empresa será **limitada ao valor pago pela licença nos últimos 30 dias**.
 
-***
+---
 
-## 13. Política de Chargeback
+# 13. Política de Chargeback
 
 Caso o usuário realize **contestação de pagamento (chargeback)** junto ao meio de pagamento, a empresa poderá:
 
@@ -335,9 +338,9 @@ Caso o usuário realize **contestação de pagamento (chargeback)** junto ao mei
 
 Chargebacks após a ativação da licença podem ser considerados **uso indevido do serviço**.
 
-***
+---
 
-## 14. Alterações nos Termos
+# 14. Alterações nos Termos
 
 A empresa pode atualizar estes Termos de Uso a qualquer momento.
 
@@ -345,9 +348,9 @@ A empresa pode atualizar estes Termos de Uso a qualquer momento.
 
 O uso contínuo do sistema após alterações implica **aceitação automática das novas condições**.
 
-***
+---
 
-## 15. Aceitação Final
+# 15. Aceitação Final
 
 O uso do software é permitido somente mediante **aceitação total e irrestrita destes Termos de Uso**.
 
