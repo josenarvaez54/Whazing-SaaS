@@ -6,7 +6,7 @@ Data de vigência: 14 de março de 2026
 ***
 
 ### **1. Introdução**
-
+Esta política segue os princípios da Lei Geral de Proteção de Dados (LGPD – Lei nº 13.709/2018).
 Esta Política de Privacidade explica como o software coleta, utiliza, armazena e protege informações.\
 Ao utilizar a plataforma, você concorda com os termos descritos abaixo. Caso não concorde, interrompa o uso imediatamente.
 
