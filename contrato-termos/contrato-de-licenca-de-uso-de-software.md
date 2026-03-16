@@ -1,4 +1,7 @@
 # Contrato de Licença de Uso de Software
+Versão 1.0
+Data de vigência: 14 de março de 2026
+Última atualização: 14 de março de 2026
 
 **Contrato de Licença de Uso de Software**
 
