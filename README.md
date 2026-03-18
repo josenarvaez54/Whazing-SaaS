@@ -37,7 +37,7 @@ Para quem quiser mais controle pode fazer instalação manual conforme manual
 
 ## Screenshots
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/atendimento (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -83,7 +83,7 @@ Anual: 50% OFF em novas aquisições (O melhor custo-benefício!).\
 \
 👉 Comece seu teste agora: [hostear.com.br/whazing](http://hostear.com.br/whazing)\
 \
-&#xNAN;_&#x4E;ota: Para validar o desconto de 10%, lembre-se de aplicar o cupom WHAZING10 no momento do pagamento da fatura._\
+\&#xNAN;_Nota: Para validar o desconto de 10%, lembre-se de aplicar o cupom WHAZING10 no momento do pagamento da fatura._\
 \
 Hostear & Whazing: Potência brasileira ao seu alcance! ⚡
 

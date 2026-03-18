@@ -44,3 +44,10 @@ icon: telegram
    ![print](<../.gitbook/assets/whazing (2).png>)
 
 ⚠️ **Importante:** Todas as mensagens devem ser enviadas para o **bot que você criou** para que apareçam no sistema Whazing.
+
+Algumas configurações bot:\
+\
+No **@BotFather Selecione seu bot clique em Bot Settings**\
+**Configure da forma abaixo**
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

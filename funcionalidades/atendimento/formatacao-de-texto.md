@@ -27,7 +27,7 @@ A barra de formatação aparece automaticamente quando você **seleciona um text
 3. Ao selecionar, aparecerá uma **barra de ferramentas acima do texto**.
 4. Clique na formatação desejada.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
