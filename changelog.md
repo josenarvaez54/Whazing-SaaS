@@ -1,5 +1,14 @@
 # Changelog e Atualizações
 
+## 🚀 Versão 2.17.2 BETA – Changelog
+- integração telegram recebeu melhorias, veremos com isso resolve varios problemas
+- novos modelos openai disponiveis
+- Sistema planos totalmente remodelado, suporte bimestral, trimestral, semestral e anual e migração entre planos painel do cliente
+- Suporte Envio ativo de mensagens no SGP
+- Suporte Envio ativo de mensagens no IXC
+- Notificação novo ticket transferir Usuario
+- Trava empresa não ficar sem admin
+
 ## 🚀 Versão 2.16.3 FINAL – Changelog
 - bug - não carrega ticket quando tem muitas informações adicionais
 - bug - correção bug download pdf
