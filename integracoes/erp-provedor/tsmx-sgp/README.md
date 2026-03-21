@@ -22,7 +22,7 @@ description: Suporte 2ª via de boletos e desbloqueio de confiança
 1. Acesse **Cadastros** > **Filas** > clique em **Adicionar**.
 2.  Configure a fila conforme o exemplo abaixo:
 
-    ![](<../../.gitbook/assets/image (30).png>)
+    ![](<../../../.gitbook/assets/image (30).png>)
 3. Na fila, selecione a **integração criada no Passo 1**.
 
 🔎 **Boas práticas da fila:**
@@ -60,11 +60,11 @@ Exemplo visual:
 
 ### Telas do TSMX SGP
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
