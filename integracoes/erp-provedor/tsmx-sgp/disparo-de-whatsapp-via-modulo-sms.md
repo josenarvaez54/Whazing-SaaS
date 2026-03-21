@@ -1,6 +1,10 @@
-# Disparo de WhatsApp via Módulo SMS
+---
+description: >-
+  Este guia mostra como enviar mensagens de WhatsApp utilizando o módulo de SMS
+  do sistema SGP.
+---
 
-Este guia mostra como enviar mensagens de WhatsApp utilizando o módulo de SMS do sistema.
+# Disparo de WhatsApp via Módulo SMS
 
 > ⚠️ **Importante:**\
 > Esse método funciona **somente com API não oficial do WhatsApp**.
@@ -10,6 +14,8 @@ Este guia mostra como enviar mensagens de WhatsApp utilizando o módulo de SMS d
 ### 🔐 1. Criar Token de Acesso da API
 
 Se você ainda não possui um token, siga os passos:
+
+No Whazing
 
 1. Acesse:\
    **Configurações → Canais/API → API**
@@ -28,7 +34,7 @@ Guarde essas informações.
 
 ***
 
-### ⚙️ 2. Configurar Gateway SMS
+### ⚙️ 2. Agora no Painel do SGP
 
 Agora vamos configurar o gateway para envio:
 
