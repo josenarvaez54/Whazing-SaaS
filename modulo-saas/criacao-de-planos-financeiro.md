@@ -212,11 +212,13 @@ As cobranças:
 * Aparecem na área **Financeiro** do cliente
 * São criadas **20 dias antes do vencimento**
 
-<figure><img src="../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/planosclientepagar.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/migracaoplanos.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-### Importante
+Importante
 
 Se você:
 
