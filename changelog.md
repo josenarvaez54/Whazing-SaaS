@@ -1,5 +1,49 @@
 # Changelog e Atualizações
 
+## 🚀 Versão 2.18.0 BETA – Changelog
+
+* Migração entre API oficial: adicionada opção para alternar de não oficial para oficial facilmente
+* S3: ajustes em métodos para melhorar desempenho (testem e enviem feedback). Upload em segundo plano — não aguarda finalizar para envio da mensagem; durante o processo, o arquivo permanece na VPS (pasta `public/temp`)
+* API oficial: suporte a evento de mensagem editada (COEX)
+* API oficial: suporte a agendamento de templates
+* API oficial: suporte a envio de carrossel
+  * Regras: mínimo 2 e máximo 10 cards
+  * Cada card precisa de imagem e ao menos 1 botão
+  * Todos os cards devem ter o mesmo tipo e quantidade de botões (máximo 2)
+
+* API oficial: configuração no painel SaaS para envio direct — Não faz o pré upload da mídia para a Meta, é utilizada URL
+* Telegram: suporte a envio de botão Reply
+* Telegram: suporte a deletar mensagem
+* Telegram: suporte a editar mensagem
+* SaaS: suporte à configuração de moeda do Stripe (padrão dólar)
+* SaaS: logs de falhas de login
+* SaaS: webhook para evento de nova empresa (teste)
+* SaaS: edição de e-mail vinculado ao tenant
+* Cadastro de usuários: logs de acesso (login, logoff, online e offline)
+* Relatórios: logs de informações deletadas (caso algo necessário não esteja na lista, abrir issue)
+* Relatórios: logs de informações alteradas (caso algo necessário não esteja na lista, abrir issue — somente contatos por enquanto)
+* Novo discador SIP: suporte a gravação, chamada em espera e conferência
+* Recepção inteligente:
+  * Busca em base de conhecimento por vector (usando API Gemini)
+  * Possibilidade de combinar com outros providers
+  * Melhor precisão na localização de dados além de palavras-chave
+  
+* Recepção inteligente:
+  * Suporte upload arquivos PDF e Word na base de conhecimento (necessário token Gemini configurado)
+  
+* Recepção inteligente:
+  * Envio de áudios com configurações dinâmicas (aleatório ou somente quando cliente envia áudio)
+
+* Recepção inteligente:
+  * Envio de arquivos com suporte a vector (necessário configuração Gemini) - usa vector para descidir se enviar arquivo cliente, alem das palavras chaves.
+
+* Lista de contatos / Kanban / Atendimento:
+  * Opção de anexar arquivos ao contato
+  
+* Wuzapi:
+  * Opção para desativar envio em Base64 (reduz processamento do Whazing)
+  * Compatível com Wuzapi 1.0.9 modificado (necessário update)
+
 ## 🚀 Versão 2.17.3 Estável – Changelog
 
 * Bug: removidas ferramentas WABA do perfil supervisor
