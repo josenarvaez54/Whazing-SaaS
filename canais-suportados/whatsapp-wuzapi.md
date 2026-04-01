@@ -4,11 +4,13 @@ icon: whatsapp
 
 # WhatsApp Wuzapi (WhatsMeow)
 
+## WhatsApp Wuzapi (WhatsMeow)
+
 A **Wuzapi (WhatsMeow)** é recomendada no lugar da **Baileys**, pois é **mais leve**, **estável** e **garante melhor desempenho do sistema**.
 
 ***
 
-### 🧩 **Instalação ou atualização do servidor**
+#### 🧩 **Instalação ou atualização do servidor**
 
 Para instalar ou atualizar, basta executar o comando abaixo:
 
@@ -30,7 +32,9 @@ Arquivo: /home/deploy/wuzapi.yaml
 
 ***
 
-### ⚙️ **Conexão no painel Whazing**
+#### ⚙️ **Conexão no painel Whazing**
+
+<figure><img src="../.gitbook/assets/wuzapiconfig.png" alt=""><figcaption></figcaption></figure>
 
 1. Acesse o painel **Whazing → SaaS → Canais**
 2. Preencha os campos com:
@@ -39,9 +43,11 @@ Arquivo: /home/deploy/wuzapi.yaml
 
 💡 É possível **migrar entre as 3 APIs não oficiais** — **Baileys**, **API Plus** e **WuzAPI** — **sem perder dados**.
 
+* Desativar "Enviar arquivos em Base64 para o Wuzapi" tornar envio mais rápido pois elimina necessidade de converter base64 arquivos antes de enviar. Mas somente funciona com nossa versão wuzapi a partir 1.0.9 - caso esteja versão mais antiga ou versão original wuzapi deixe ativado
+
 ***
 
-### 🔁 **Reiniciar serviços**
+#### 🔁 **Reiniciar serviços**
 
 **Reiniciar WuzAPI**
 
@@ -63,7 +69,7 @@ docker container restart rabbitmqwuzapi
 
 ***
 
-### 📜 **Ver logs dos contêineres**
+#### 📜 **Ver logs dos contêineres**
 
 **Logs do WuzAPI**
 
@@ -85,31 +91,30 @@ docker logs --tail 100 -f rabbitmqwuzapi
 
 Segue versão melhorada para **GitBook**, mais organizada, com correção de digitação, melhor explicação e mantendo seu conteúdo técnico intacto:
 
----
+***
 
-# 🗑️ Desinstalar WUZAPI
+## 🗑️ Desinstalar WUZAPI
 
 Caso ocorra algum erro e você precise realizar uma **reinstalação limpa**, ou caso não utilize mais o WUZAPI, siga os passos abaixo para remover completamente a instalação.
 
-> ⚠️ **Importante:**
-> As mensagens já existentes no **Whazing** **não serão perdidas**, pois ficam armazenadas no banco principal do sistema.
+> ⚠️ **Importante:** As mensagens já existentes no **Whazing** **não serão perdidas**, pois ficam armazenadas no banco principal do sistema.
 >
 > Se for instalar novamente, será necessário:
 >
 > * Ler novamente os **QR Codes**
 > * Atualizar o **Token no painel SaaS**
 
----
+***
 
-## 📂 1️⃣ Acessar diretório de instalação
+### 📂 1️⃣ Acessar diretório de instalação
 
 ```bash
 cd /home/deploy
 ```
 
----
+***
 
-## 🛑 2️⃣ Derrubar containers + remover volumes
+### 🛑 2️⃣ Derrubar containers + remover volumes
 
 Esse comando remove:
 
@@ -121,9 +126,9 @@ Esse comando remove:
 docker compose -f wuzapi.yaml down -v --remove-orphans
 ```
 
----
+***
 
-## 🔎 3️⃣ Garantir que não restou nenhum container
+### 🔎 3️⃣ Garantir que não restou nenhum container
 
 Verifique se ainda existe algum container ativo ou parado:
 
@@ -137,24 +142,24 @@ Se ainda aparecer algum container do WUZAPI, remova manualmente:
 docker rm -f wuzapi postgreswuzapi rabbitmqwuzapi
 ```
 
----
+***
 
-## 🌐 4️⃣ Limpar redes órfãs
+### 🌐 4️⃣ Limpar redes órfãs
 
 ```bash
 docker network prune -f
 ```
 
----
+***
 
-## 🗂️ 5️⃣ Remover arquivo de configuração
+### 🗂️ 5️⃣ Remover arquivo de configuração
 
 ```bash
 rm wuzapi.yaml
 ```
 
----
+***
 
-## ✅ Finalização
+### ✅ Finalização
 
 Após esses passos, o WUZAPI estará completamente removido do servidor.
