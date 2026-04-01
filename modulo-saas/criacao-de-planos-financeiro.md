@@ -20,7 +20,7 @@ Para criar ou gerenciar planos disponíveis para seus clientes:
 
 **Adicionar**
 
-<figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/addplano.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
