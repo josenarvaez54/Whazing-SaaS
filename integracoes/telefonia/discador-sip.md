@@ -4,7 +4,13 @@ icon: phone
 
 # Discador SIP
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+Suporte transferência, chamada em espera, gravação das chamadas, conferencia
+
+<figure><img src="../../.gitbook/assets/discador.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/discador2.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/discador3.png" alt=""><figcaption></figcaption></figure>
 
 Para que a integração funcione, seu servidor de telefonia (ex: Asterisk, Issabel) **deve** ter suporte a:
 
@@ -13,17 +19,19 @@ Para que a integração funcione, seu servidor de telefonia (ex: Asterisk, Issab
 
 No cadastro de usuários temos novos campos
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/config.png" alt=""><figcaption></figcaption></figure>
 
 Em relatórios é possível encontrar um relatório das chamadas recebidas e efetuadas
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/logssip.png" alt=""><figcaption></figcaption></figure>
 
 Caso precisar de um servidor pode está conversando com:
 
 Jose Felipe Batista Ortiz - 55 34 9772-9922
 
 Hamilton Oliveira Batista - 55 18 99744-1369
+
+Ou verificar nossos parceiros [https://whazing.com.br/parceiros/](https://whazing.com.br/parceiros/)
 
 Sites referencias para testes e documentação ajustes servidor sip.
 
