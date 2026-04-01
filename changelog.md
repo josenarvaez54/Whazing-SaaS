@@ -1,5 +1,19 @@
 # Changelog e Atualizações
 
+## 🚀 Versão 2.17.3 Estável – Changelog
+
+* Bug: removidas ferramentas WABA do perfil supervisor
+* Bug: correção no modo dark do financeiro
+* Bug: cadastro automático não estava puxando plano
+* Bug: problemas no envio de imagens via Wuzapi com `public` fechado
+* Iframes Joker: ajustes de permissões em casos específicos (SIP)
+* Novo campo no cadastro: descrição do plano
+* Remoção da animação no logo do atendimento (em teste — percepção de carregamento mais lento)
+* Lista de atendimentos: alterado para modal de mensagens
+* Atualização do endpoint admin (criar e editar empresa)
+* Correção do fundo do chat interno personalizado
+
+
 ## 🚀 Versão 2.17.2 BETA – Changelog
 - integração telegram recebeu melhorias, veremos com isso resolve varios problemas
 - novos modelos openai disponiveis
