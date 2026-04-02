@@ -112,6 +112,7 @@
       * [Busca na Web](integracoes/inteligencia-artificial/recepcao-inteligente/busca-na-web.md)
       * [Envio de Arquivos via IA](integracoes/inteligencia-artificial/recepcao-inteligente/envio-de-arquivos-via-ia.md)
       * [Outros Comandos](integracoes/inteligencia-artificial/recepcao-inteligente/outros-comandos.md)
+      * [Configuração de Resposta por Áudio](integracoes/inteligencia-artificial/recepcao-inteligente/configuracao-de-resposta-por-audio.md)
   * [CRM & ERP](integracoes/crm-and-erp/README.md)
     * [WooCommerce](integracoes/crm-and-erp/woocommerce-login-whatsapp.md)
     * [PerfexCRM](integracoes/crm-and-erp/perfexcrm.md)
