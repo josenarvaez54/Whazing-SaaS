@@ -43,6 +43,7 @@
     * [Stripe](modulo-saas/gateways-pagamentos/stripe.md)
   * [Guia Simples para Configurar o Gmail e Lembrar a Senha no Whazing](modulo-saas/configurar-gmail.md)
   * [📘 API SaaS](modulo-saas/api_saas.md)
+  * [Webhook SaaS](modulo-saas/webhook-saas.md)
   * [📢 Informativo do Sistema](modulo-saas/informativo-do-sistema.md)
   * [🎛️ Botão Coringa](modulo-saas/botao-coringa.md)
   * [Envio WhatsApp aviso fatura em aberto](modulo-saas/envio-whatsapp-aviso-fatura-em-aberto.md)
