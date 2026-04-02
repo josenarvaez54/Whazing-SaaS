@@ -132,6 +132,110 @@ Se esquecer essa variável, a IA não receberá o conteúdo.
 
 ***
 
+Aqui está **somente o conteúdo que você deve acrescentar na documentação** 👇
+
+***
+
+### 🔎 Busca Avançada com IA (Vector / Semântica)
+
+Agora a Base de Conhecimento conta com **busca inteligente por similaridade**, permitindo encontrar conteúdos mesmo quando o cliente não usa exatamente a palavra-chave.
+
+Também é possível **enviar arquivos (PDF, DOC, etc)** para serem usados como fonte de conhecimento.
+
+***
+
+### 🤖 Como funciona
+
+O sistema pode utilizar o **Gemini (Google)** para transformar textos em vetores (embeddings), permitindo comparação por significado (semântica), e não apenas por palavras exatas.
+
+***
+
+### 🔑 Configuração da API do Gemini
+
+Para ativar a busca inteligente, configure a chave de API do Gemini.
+
+Essa chave permite:
+
+* Comparar mensagens por **significado**, não só palavras
+* Encontrar respostas mesmo com **sinônimos ou frases diferentes**
+* Analisar conteúdo de **arquivos enviados pelo cliente**
+* Melhorar muito a precisão das respostas
+
+***
+
+### ⚠️ Sem a API do Gemini
+
+Se a chave não estiver configurada:
+
+* A busca funciona apenas por **palavras-chave exatas**
+* O sistema procura exatamente o termo digitado pelo cliente
+* Arquivos não são analisados por conteúdo, apenas por nome ou palavras-chave
+
+***
+
+### 📄 Suporte a Arquivos
+
+Agora você pode adicionar arquivos como fonte de conhecimento:
+
+* PDF
+* DOC / DOCX
+* Textos em geral
+
+Com o Gemini ativo:
+
+* O conteúdo dos arquivos é lido e indexado
+* A IA consegue buscar informações **dentro dos arquivos**
+* Funciona até com perguntas indiretas
+
+***
+
+### ⚙️ Estratégia de Busca
+
+Define como o sistema encontra informações na Base:
+
+* **somente palavras chaves**\
+  Busca por palavra exata (modo tradicional)
+* **palavras chaves + busca vetorial** (recomendado)\
+  Primeiro filtra por palavra-chave, depois refina por similaridade
+
+***
+
+### 🎯 Similaridade
+
+Define o quão parecida a mensagem precisa ser para retornar um resultado.
+
+Valor entre **0 e 1**:
+
+* **0.70** → equilíbrio ideal (recomendado)
+* **0.85** → muito restrito (resultados quase idênticos)
+* **0.50** → mais aberto (pode trazer conteúdos menos relevantes)
+
+***
+
+### 📊 Máximo resultados
+
+Define quantos itens da Base de Conhecimento serão enviados para a IA por mensagem.
+
+💡 Recomendado: entre **2 e 4**
+
+* Valores altos podem:
+  * Aumentar consumo de tokens
+  * Deixar o prompt mais pesado
+  * Reduzir performance
+
+***
+
+### 🚀 Resultado
+
+Com essa configuração:
+
+* A IA entende melhor o cliente, mesmo sem palavras exatas
+* Conteúdos de arquivos também são utilizados
+* Respostas ficam mais precisas e inteligentes
+* Mantém o sistema otimizado e eficiente
+
+***
+
 ## 🚀 Vantagens
 
 * 🔥 Reduz consumo de tokens
