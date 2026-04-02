@@ -63,6 +63,22 @@ Valor entre **0.5 e 1.0**
 
 Use um valor de envio automático mais alto para evitar envios indevidos e garantir que apenas arquivos realmente relevantes sejam enviados 👍
 
+Aqui está o trecho adicional 👇
+
+***
+
+### ⚠️ Importante
+
+Para que a **Correspondência Semântica de Arquivos** funcione, é obrigatório ter a **API do Gemini configurada** na fica configurações na tela que lista arquivos.
+
+Sem essa configuração:
+
+* A busca por arquivos não utilizará similaridade
+* Apenas palavras-chave exatas serão consideradas
+* O envio automático baseado em conteúdo não funcionará
+
+<figure><img src="../../../.gitbook/assets/configurarembeding.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 ## 🧠 Como Funciona
