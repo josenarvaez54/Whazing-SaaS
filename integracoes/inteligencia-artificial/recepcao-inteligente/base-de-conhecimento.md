@@ -152,7 +152,22 @@ O sistema pode utilizar o **Gemini (Google)** para transformar textos em vetores
 
 ### 🔑 Configuração da API do Gemini
 
-Para ativar a busca inteligente, configure a chave de API do Gemini.
+***
+
+### ⚠️ Importante
+
+Para ativar a busca inteligente, configure a **API Key do Gemini** nas configurações da **Base de Conhecimento**.
+
+* A mesma chave é utilizada para:
+  * Base de Conhecimento
+  * Correspondência de Arquivos
+
+Sem essa configuração:
+
+* A busca funciona apenas por palavras-chave exatas
+* A busca semântica (por similaridade) não será ativada
+
+***
 
 Essa chave permite:
 
@@ -160,6 +175,8 @@ Essa chave permite:
 * Encontrar respostas mesmo com **sinônimos ou frases diferentes**
 * Analisar conteúdo de **arquivos enviados pelo cliente**
 * Melhorar muito a precisão das respostas
+
+<figure><img src="../../../.gitbook/assets/configurarembeding.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
