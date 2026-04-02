@@ -1,6 +1,8 @@
-# Envio de Arquivos via IA
+---
+icon: paperclip-vertical
+---
 
-## 📎 Envio de Arquivos via IA
+# Envio de Arquivos via IA
 
 O sistema permite que a IA envie arquivos automaticamente durante o atendimento utilizando o comando:
 
@@ -9,6 +11,57 @@ O sistema permite que a IA envie arquivos automaticamente durante o atendimento 
 ```
 
 Esse comando faz com que o sistema envie um arquivo previamente cadastrado.
+
+***
+
+### 📎 Correspondência Semântica de Arquivos
+
+Agora o sistema também pode **encontrar e enviar arquivos automaticamente** com base na mensagem do cliente, utilizando busca por similaridade (semântica).
+
+Isso permite que documentos relevantes sejam enviados mesmo quando o cliente não usa exatamente o mesmo termo.
+
+***
+
+### ⚙️ Configurações
+
+#### 🎯 Similaridade Mínima
+
+Define o nível mínimo para considerar um arquivo como relevante.
+
+Valor entre **0.5 e 1.0**
+
+* **0.72** → equilíbrio ideal (recomendado)
+* Valores menores → mais resultados, porém menos precisos
+* Valores maiores → mais preciso, porém mais restrito
+
+***
+
+#### 🚀 Limiar de Envio Automático
+
+Define quando o arquivo será enviado automaticamente, sem depender da decisão da IA.
+
+Valor entre **0.5 e 1.0**
+
+* **0.88** → recomendado para envio seguro
+* Acima desse valor → arquivo é enviado automaticamente
+* Abaixo disso → a IA decide se deve enviar ou não
+
+***
+
+### 🧠 Como funciona
+
+* O sistema analisa a mensagem do cliente
+* Compara com os arquivos disponíveis
+* Calcula a similaridade
+* Se atingir o nível configurado:
+  * Pode sugerir o arquivo para a IA
+  * Ou enviar automaticamente (dependendo da configuração)
+
+***
+
+### 💡 Dica
+
+Use um valor de envio automático mais alto para evitar envios indevidos e garantir que apenas arquivos realmente relevantes sejam enviados 👍
 
 ***
 
