@@ -52,6 +52,12 @@ Depois de conectar o canal desejado no Hub, siga estes passos:
 3. Cole o **token copiado** do Hub no campo NotificaME
 4. Salve o cadastro
 
+Caso não for configurado token corretamente dará erro
+
+```
+Token do HUB inválido. O token deve pertencer à conta, não ao canal.
+```
+
 ***
 
 #### 3️⃣ Adicionar o canal
