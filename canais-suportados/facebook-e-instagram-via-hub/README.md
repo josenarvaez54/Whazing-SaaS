@@ -48,15 +48,15 @@ Depois de conectar o canal desejado no Hub, siga estes passos:
 #### 2️⃣ Cadastrar o Token no Whazing
 
 1. Acesse o **Whazing**
-2. Vá até: **Configurações → Canais → Token Hub**
-3. Cole o **token copiado** do Hub
+2. Vá até: **Configurações → Canais-API → Token Hub**
+3. Cole o **token copiado** do Hub no campo NotificaME
 4. Salve o cadastro
 
 ***
 
 #### 3️⃣ Adicionar o canal
 
-* Após salvar o token, basta **adicionar o canal** normalmente
+* Após salvar o token, basta clicar em **adicionar o canal**
 * Na escolha do provedor, selecione **Hub NotificaMe**
 
 ***
