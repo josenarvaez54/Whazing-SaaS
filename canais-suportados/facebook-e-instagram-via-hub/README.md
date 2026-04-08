@@ -13,7 +13,7 @@ Nosso sistema é **homologado oficialmente** para os seguintes canais:
 
 Se quiser mais detalhes técnicos sobre cada canal, consulte a documentação oficial da NotificaMe:
 
-👉 [https://hub.notificame.com.br/docs/#/users?id=-whatsapp](https://hub.notificame.com.br/docs/#/users?id=-whatsapp)
+👉 [https://app.notificame.com.br/docs/#/users](https://app.notificame.com.br/docs/#/users)
 
 ***
 
