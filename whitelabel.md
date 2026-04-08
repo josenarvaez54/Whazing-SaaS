@@ -17,3 +17,8 @@
 * 🚀 Comece agora a gerar renda com um sistema de atendimento completo, fácil de gerenciar e pronto para escalar!
 
 <figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+
+Maioria das imagens no formato PNG que deve ser usadas ao selecionar arquivo sistema indica qual formato e tamanho recomendado. Se for enviado formato diferente o arquivo não é alterado. E teste janela anônima ou limpe cache.
+
+<figure><img src=".gitbook/assets/trocalogos.png" alt=""><figcaption></figcaption></figure>
+
