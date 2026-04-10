@@ -1,5 +1,30 @@
 # Changelog e Atualizações
 
+## 🚀 Versão 2.17.4 Estável – Changelog
+- bug plus - ignorar mensagem albummessagem somente erros logs sem utilidade
+- bug - recepcao inteligente melhoria detetectar comandos transferencia
+- bug - data chat interno tarefas
+- bug - Correção deletar mensagem ou ticket deleta arquivos mensagem rapidas, chatbot(presciso recriar arquivo fluxo)
+
+## 🚀 Versão 2.18.1 BETA – Changelog
+- bug plus - ignorar mensagem albummessagem somente erros logs sem utilidade
+- bug beta s3 - forçando baixar pdf não faz iframe
+- bug beta - criar recepcao inteligente nova
+- bug beta - recepcao inteligente não acionar imagens ou outros arquivos sem legenda
+- bug - Correção deletar mensagem ou ticket deleta arquivos mensagem rapidas, chatbot(presciso recriar arquivo fluxo)
+- bug - recepcao inteligente melhoria detetectar comandos transferencia
+- bug - data chat interno tarefas
+- Chatbot salva S3 arquivos
+- Telegram salvar s3 arquivos
+- melhoria reconexão telegram ao reniciar sistema
+- recepção inteligente - configuração não transferir caso estiver fora horario atendimento e mensagem enviar cliente informando
+- api oficial coex - suporte evento mensagem deletada
+- sticker chat Interno
+- novo sistema sticker atendimento
+- novos filtros na lista contatos para admin
+- Exportar contatos segui filtros selecionados
+
+
 ## 🚀 Versão 2.18.0 BETA – Changelog
 
 * Migração entre API oficial: adicionada opção para alternar de não oficial para oficial facilmente
