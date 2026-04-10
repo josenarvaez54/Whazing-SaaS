@@ -14,7 +14,7 @@ O sistema suporta diferentes tipos de canais de atendimento, cada um com suas ca
 
 ***
 
-📲 Caso precise de um número para utilizar no sistema, você pode adquirir facilmente através do portal: https://telera.whazing.com.br
+📲 Caso precise de um número para utilizar no sistema, você pode adquirir facilmente através do portal: [https://telera.whazing.com.br](https://telera.whazing.com.br/)
 
 ***
 
