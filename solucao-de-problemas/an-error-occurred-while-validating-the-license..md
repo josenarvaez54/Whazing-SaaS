@@ -50,12 +50,36 @@ Se não quiser renovar a versão Premium:
 
 ***
 
-#### 🔹 3. Pagamento feito, mas erro persiste
+Aqui vai uma versão mais clara, organizada e profissional (sem ficar robótica):
 
-Se você já realizou o pagamento e o erro continua:
+***
 
-1. Pode ter ocorrido uma falha de comunicação entre sua **VPS** e o **servidor de licenças**.
-2. Tente:
-   * Reiniciar o **Whazing**;
-   * Ou reiniciar sua **VPS**.
-3. Caso o problema continue, entre em contato com o **suporte técnico**.
+🔹 **3. Pagamento realizado, mas o erro continua**
+
+Se você já efetuou o pagamento e o erro de licença ainda persiste, verifique os pontos abaixo:
+
+**Possíveis causas e soluções:**
+
+* **🔄 Reinicialização**\
+  Pode ter ocorrido uma falha de comunicação temporária.\
+  Tente:
+  * Reiniciar o Whazing
+  * Reiniciar sua VPS
+* **🌐 Alteração de IP**\
+  A licença é validada pelo IP da VPS.\
+  Se o IP foi alterado, a licença pode ter sido invalidada.
+* **🔒 Firewall ou bloqueios**\
+  Um firewall ou regra de rede pode estar impedindo a comunicação com o servidor de licenças.\
+  Verifique:
+  * Se houve mudanças recentes no firewall
+  * Libere ou desative temporariamente para teste
+  * Após ajustes, reinicie a VPS
+* **📡 Problemas de DNS / conexão**\
+  Confirme se sua VPS está conseguindo se comunicar com nossos servidores:
+  * Teste com: `ping whazing.com.br`
+  * Se não houver resposta, pode ser problema de DNS ou rede
+
+***
+
+**❗ Ainda não resolveu?**\
+Entre em contato com o suporte técnico para análise detalhada.
