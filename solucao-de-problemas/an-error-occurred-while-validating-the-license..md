@@ -50,10 +50,6 @@ Se não quiser renovar a versão Premium:
 
 ***
 
-Aqui vai uma versão mais clara, organizada e profissional (sem ficar robótica):
-
-***
-
 🔹 **3. Pagamento realizado, mas o erro continua**
 
 Se você já efetuou o pagamento e o erro de licença ainda persiste, verifique os pontos abaixo:
