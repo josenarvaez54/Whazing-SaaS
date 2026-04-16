@@ -117,22 +117,22 @@ A partir da versão **2.11.0**, estão disponíveis as seguintes interações:
 * Compatível com **API oficial** e **API Plus**.
 * Funciona parcialmente no **Baileys** (sem suporte oficial, pode parar a qualquer momento).
 
-<figure><img src="../../.gitbook/assets/lista (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/lista.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/lista2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/lista2.png" alt=""><figcaption></figcaption></figure>
 
 ### 🔘 Enviar Botões
 
 * Compatível com **WhatsApp oficial**, **Facebook**, **Instagram** e **API Plus**.
 * Máximo de **3 botões**.
 
-<figure><img src="../../.gitbook/assets/botao (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/botao.png" alt=""><figcaption></figcaption></figure>
 
 ### 🔗 Botão com Link
 
 * Compatível com **API oficial** e **API Plus**.
 
-<figure><img src="../../.gitbook/assets/links (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/links.png" alt=""><figcaption></figcaption></figure>
 
 ### 📍 Solicitar Localização
 
@@ -140,7 +140,7 @@ A partir da versão **2.11.0**, estão disponíveis as seguintes interações:
 * Útil para serviços de **entrega**.
 * Compatível com **API oficial** e **API Plus**.
 
-<figure><img src="../../.gitbook/assets/solicitarlocalizacao (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/solicitarlocalizacao.png" alt=""><figcaption></figcaption></figure>
 
 ### 🧩 Botão Dinâmico
 
@@ -148,7 +148,7 @@ A partir da versão **2.11.0**, estão disponíveis as seguintes interações:
 * Permite misturar tipos de botões: resposta, link, cópia, ligação, etc.
 *   Alguns dispositivos pode aparecer mensagem não compatível
 
-    <figure><img src="../../.gitbook/assets/dinamico (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/dinamico.png" alt=""><figcaption></figcaption></figure>
 
 ### 🎠 Carrossel de Mídia
 
@@ -156,11 +156,11 @@ A partir da versão **2.11.0**, estão disponíveis as seguintes interações:
 * Envie várias imagens com botões interativos abaixo delas.
 * Alguns dispositivos pode aparecer mensagem não compatível
 
-<figure><img src="../../.gitbook/assets/carrossel1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/carrossel1.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-<figure><img src="../../.gitbook/assets/carrossel2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/carrossel2.png" alt=""><figcaption></figcaption></figure>
 
 ### 🔗 ChavePix
 

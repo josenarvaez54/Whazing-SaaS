@@ -68,12 +68,12 @@ No **chatbot**, é possível salvar automaticamente a resposta do cliente como v
 
 📷 _Exemplo de configuração:_
 
-<figure><img src="../../.gitbook/assets/image (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.jpg" alt=""><figcaption></figcaption></figure>
 
 📂 Arquivo de exemplo disponível:\
 Clique botão direito coloque salvar link como
 
-{% file src="../../.gitbook/assets/exemplo_fluxo_usando_novas_variaveis (1).json" %}
+{% file src="../../.gitbook/assets/exemplo_fluxo_usando_novas_variaveis.json" %}
 
 ***
 

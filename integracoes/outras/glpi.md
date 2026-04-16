@@ -179,7 +179,7 @@ Depois:
 2. Vincule a integração GLPI
 3. Marque a opção **Iniciar ao transferir**
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

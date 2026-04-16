@@ -196,7 +196,7 @@ Para isso:
 2. Edite a empresa desejada
 3. No campo **Plano**, selecione o plano criado.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

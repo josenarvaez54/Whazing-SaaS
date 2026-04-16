@@ -48,7 +48,7 @@ Preencha os campos com atenção:
 ### 📝 Nome da integração
 
 * Escolha um nome para identificar essa integração no sistema
-* Exemplo: `Desbloqueio Confiança  Atlaz`
+* Exemplo: `Desbloqueio Confiança Atlaz`
 
 ### 🌐 URL da integração
 
@@ -85,7 +85,7 @@ Algumas opções podem ser ativadas conforme sua necessidade:
 
 ⚠️ Se ativar uma opção que o canal **não suporta**, a mensagem **não será entregue**.
 
-<figure><img src="../../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

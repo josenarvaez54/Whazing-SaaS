@@ -1,8 +1,11 @@
-# PerfexCRM
+---
+description: >-
+  Este módulo permite o envio de notificações automáticas de faturas do
+  PerfexCRM via WhatsApp, utilizando a API do Whazing. É ideal para lembretes de
+  cobrança, avisos de vencimento e comunicação direta
+---
 
-Este módulo permite o **envio de notificações automáticas de faturas do PerfexCRM via WhatsApp**, utilizando a **API do Whazing**. É ideal para lembretes de cobrança, avisos de vencimento e comunicação direta com seus clientes.
-
-***
+# Modulo disparo mensagem texto
 
 ## ✅ Compatibilidade
 
@@ -11,15 +14,13 @@ Este módulo permite o **envio de notificações automáticas de faturas do Perf
 
 > ⚠️ O módulo foi testado exclusivamente nessas versões. Em versões diferentes, recomenda-se validar antes de usar em produção.
 
-***
-
 ## 📦 Download do módulo
 
 Clique no link abaixo para baixar o módulo de notificação via WhatsApp para o PerfexCRM:
 
 👉 [https://github.com/cleitonme/Whazing-SaaS/raw/refs/heads/main/docs/perfexcrm/modulo%20notificacao%20para%20PerfexCRM%20%20compativel%20com%20api%20do%20whazing.zip](https://github.com/cleitonme/Whazing-SaaS/raw/refs/heads/main/docs/perfexcrm/modulo%20notificacao%20para%20PerfexCRM%20%20compativel%20com%20api%20do%20whazing.zip)
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -29,7 +30,7 @@ Após instalar o módulo no PerfexCRM, siga os passos abaixo:
 
 1. Acesse o menu: **Configurações → SMS → WhatsApp API Whazing**
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Preencha os dados solicitados com as informações da **API do Whazing**.
 
@@ -46,7 +47,7 @@ Para configurar corretamente o módulo, você precisa gerar suas credenciais no 
 
 Esses dados devem ser informados no campo de configuração do módulo no PerfexCRM.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -74,30 +75,3 @@ O envio automático das notificações depende da configuração do **CRON do Pe
 📖 Documentação oficial do PerfexCRM sobre CRON:
 
 > ⚠️ Sem o CRON configurado corretamente, os envios automáticos não serão executados.
-
-***
-
-## 🖥️ Módulo extra: Whazing em Iframe no PerfexCRM
-
-Também disponibilizamos um módulo adicional que permite **abrir o painel do Whazing dentro do PerfexCRM via iframe**, facilitando o atendimento sem sair do CRM.
-
-👉 Download do módulo Iframe: [https://github.com/cleitonme/Whazing-SaaS/raw/refs/heads/main/docs/perfexcrm/modulo%20colocar%20iframe%20whazing%20no%20perfexcrm.zip](https://github.com/cleitonme/Whazing-SaaS/raw/refs/heads/main/docs/perfexcrm/modulo%20colocar%20iframe%20whazing%20no%20perfexcrm.zip)
-
-***
-
-## 💰 Integração PIX para PerfexCRM (opcional)
-
-Se você deseja automatizar cobranças via Pix no PerfexCRM, oferecemos módulos com **custo extremamente baixo por transação**:
-
-### 💸 Pushin Pay no PerfexCRM
-
-* **Taxa fixa:** apenas **R$ 0,30 por transação Pix**
-* Valor definitivo (não é promoção)
-
-👉 Cadastre-se agora: [https://pushinpay.whazing.com.br](https://pushinpay.whazing.com.br)
-
-Também temos integração com **InfinitePay**.
-
-***
-
-✅ Pronto! Com isso, seu PerfexCRM estará integrado ao WhatsApp via Whazing, permitindo notificações automáticas, maior taxa de recebimento e comunicação eficiente com seus clientes.

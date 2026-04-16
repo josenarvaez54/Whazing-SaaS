@@ -88,7 +88,7 @@ Essa opção é ideal quando você precisa recuperar mensagens de **apenas um co
 2. Abra um novo ticket (se não houver nenhum ativo)
 3. No ticket, clique na opção de **Sincronizar mensagens**
 
-<figure><img src="../../.gitbook/assets/sinc (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sinc.png" alt=""><figcaption></figcaption></figure>
 
 4. Informe a **quantidade máxima de mensagens**
    * Limite: **até 100 mensagens**

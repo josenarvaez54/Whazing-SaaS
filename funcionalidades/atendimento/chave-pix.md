@@ -56,7 +56,7 @@ Depois de cadastrada, a Chave PIX ficará disponível **na tela de atendimento**
 
 A mensagem será enviada automaticamente neste formato padrão:
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

@@ -18,7 +18,7 @@ icon: circle-phone
 
     * Basta copiar.
 
-    <figure><img src="../../.gitbook/assets/image (6) (2).avif" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (6).avif" alt=""><figcaption></figcaption></figure>
 5. **Acesse a lista de canais**
    * Localize o canal desejado na lista disponível.
 6.  **Edite as configurações do canal**

@@ -39,13 +39,13 @@ Para quem quiser mais controle pode fazer instalação manual conforme manual
 
 <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/atendimento (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/atendimento.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/dashboard (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/dashboard.png" alt=""><figcaption></figcaption></figure>
 
 ## Recomendação de VPS
 

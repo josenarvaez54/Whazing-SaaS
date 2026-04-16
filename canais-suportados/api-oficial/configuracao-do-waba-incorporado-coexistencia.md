@@ -79,7 +79,7 @@ Dentro do **Login do Facebook para Empresas**:
 3. Escolha **qualquer nome** (é apenas identificador interno)
 4. Clique no ícone de **lápis (Editar)**
 
-<figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -96,7 +96,7 @@ Dentro do **Login do Facebook para Empresas**:
 1. Vá até a seção **Products**
 2. Marque as opções relacionadas ao WhatsApp
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
@@ -138,7 +138,7 @@ Ainda no Meta for Developers:
 
 ⚠️ Essas permissões são **liberadas na hora**, sem burocracia.
 
-<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

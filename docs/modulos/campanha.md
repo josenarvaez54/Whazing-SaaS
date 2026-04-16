@@ -28,9 +28,9 @@ Depois de preencher todos os campos, clique em **Salvar** e siga para a próxima
 
 ### 👥 Etapa 2: Adicionando Contatos
 
-<figure><img src="../../.gitbook/assets/campanha4 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/campanha4.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/campanha3 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/campanha3.png" alt=""><figcaption></figcaption></figure>
 
 #### Incluir Contatos
 
@@ -60,7 +60,7 @@ Você pode **personalizar suas mensagens** utilizando informações cadastradas 
 
 📷 _Exemplo de Informações Adicionais:_
 
-![Variaveis](<../../.gitbook/assets/informacoesadicionais (1).jpg>)\\
+![Variaveis](../../.gitbook/assets/informacoesadicionais.jpg)\\
 
 *   Exemplo 1:
 

@@ -29,7 +29,7 @@ Neste exemplo vamos utilizar o **Backblaze B2**, que é compatível com S3.
 
 Acesse e crie sua conta em: 👉 [https://www.backblaze.com](https://www.backblaze.com)
 
-<figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -67,7 +67,7 @@ Localize o campo **Endpoint**.
 
 Você precisará dele para configurar no Whazing.
 
-<figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 
 #### 📌 Como identificar a Região
 

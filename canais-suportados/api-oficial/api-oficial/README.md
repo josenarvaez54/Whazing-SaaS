@@ -37,14 +37,14 @@ Para conectar verifique documentação oficial do HUB
 ### ✅ Whazing tem suporte às mensagens especiais da API OFICIAL
 
 * **Botões (até 3)**\
-  ![print](<../../../.gitbook/assets/botao (2).png>)
+  ![print](../../../.gitbook/assets/botao.png)
 * **Lista**\
-  ![print](<../../../.gitbook/assets/lista (2).png>)\
-  ![print](<../../../.gitbook/assets/lista2 (2).png>)
+  ![print](../../../.gitbook/assets/lista.png)\
+  ![print](../../../.gitbook/assets/lista2.png)
 * **Links com informações**\
-  ![print](<../../../.gitbook/assets/links (2).png>)
+  ![print](../../../.gitbook/assets/links.png)
 * **Solicitar localização**\
-  ![print](<../../../.gitbook/assets/solicitarlocalizacao (2).png>)
+  ![print](../../../.gitbook/assets/solicitarlocalizacao.png)
 
 ***
 
