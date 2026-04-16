@@ -120,6 +120,7 @@
     * [WooCommerce](integracoes/crm-and-erp/woocommerce-login-whatsapp.md)
     * [PerfexCRM](integracoes/crm-and-erp/perfexcrm/README.md)
       * [Modulo disparo mensagem texto](integracoes/crm-and-erp/perfexcrm/modulo-disparo-mensagem-texto.md)
+      * [Módulo de Disparo de Mensagens (JSON)](integracoes/crm-and-erp/perfexcrm/modulo-de-disparo-de-mensagens-json.md)
       * [Whazing em Iframe no PerfexCRM](integracoes/crm-and-erp/perfexcrm/whazing-em-iframe-no-perfexcrm.md)
   * [Telefonia](integracoes/telefonia/README.md)
     * [Wavoip](integracoes/telefonia/configurar_wavoip.md)
