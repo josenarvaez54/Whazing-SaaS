@@ -1,6 +1,6 @@
 # Configuração
 
-Integrações definidas nas filas Cadastro - Filas/Integrações&#x20;
+Integrações definidas nas filas Cadastro - Filas/Integrações
 
 Acesse aba integrações
 
@@ -8,10 +8,39 @@ Acesse aba integrações
 
 Clique adicionar e configure sua integração
 
-Cadastro da fila seleciona a integração que vai usar
+#### 🚀 Como ativar a integração automática
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+Depois de criar a integração, você precisa configurar para que ela inicie automaticamente. Siga estes passos:
 
-"Inicia Integração ao transferir" - marcando essa opção ao transferir para fila inicia imediatamente a integração
+#### 1️⃣ Criar e configurar a fila
 
-Quando atendimento estiver como pendente e na fila a integração estará ativada
+Vá em:\
+**Cadastro → Filas/Integrações**
+
+* Crie ou edite uma fila
+* Selecione a integração que você criou
+* Marque a opção: **“Inicia Integração ao transferir”**
+
+<figure><img src="../.gitbook/assets/filainiciarintegracao.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+#### 2️⃣ Vincular a fila ao canal
+
+Agora vá em:\
+**Configurações → Canais / API**
+
+* Selecione o canal desejado
+* Defina a **fila criada**
+* **Não selecione usuário**
+* **Não selecione chatbot**
+
+<figure><img src="../.gitbook/assets/canalintegracao.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+#### ✅ Resultado
+
+Com isso configurado, sempre que chegar uma nova mensagem:
+
+* A integração será iniciada sem precisar de ação manual
