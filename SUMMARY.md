@@ -100,6 +100,7 @@
     * [Variáveis do Sistema](funcionalidades/gestao/variaveis-sistema.md)
     * [Tarefas](funcionalidades/gestao/tarefas.md)
     * [Anotação Tickets](funcionalidades/gestao/anotacao-tickets.md)
+  * [Kanban](funcionalidades/kanban.md)
   * [PWA CELULAR](funcionalidades/instalacao-do-pwa-e-habilitacao-de-notificacoes.md)
 * [Integrações](integracoes/README.md)
   * [Configuração](integracoes/configuracao.md)
