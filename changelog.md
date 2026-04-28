@@ -1,5 +1,11 @@
 # Changelog e Atualizações
 
+## 🚀 Versão 2.18.2 Beta – Changelog
+- bug - não estava validando quantidade canais conectar canal waba incorporado
+- bug - correcao uso s3 quando configurado prefixo pasta causa erros varios pontos
+- bug - contato enviado em modo dark
+Sistema tenta reconexão envio mensagens caso canal aparece como desconectado
+
 ## 🚀 Versão 2.17.4 Estável – Changelog
 - bug plus - ignorar mensagem albummessagem somente erros logs sem utilidade
 - bug - recepcao inteligente melhoria detetectar comandos transferencia
