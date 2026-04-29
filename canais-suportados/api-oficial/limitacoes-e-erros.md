@@ -2,7 +2,7 @@
 
 #### ⚠️ Considerações importantes  <a href="#consideracoes-importantes" id="consideracoes-importantes"></a>
 
-* A API oficial **não oferece suporte a grupos**. O acesso será apenas pelo app ou WhatsApp Web.
+* A API oficial **não oferece suporte a grupos**.
 * A API oficial **não exibe a foto do contato**.
 * Você tem **24 horas** para responder uma mensagem do cliente via Whazing.
 * No modo COEX tem algumas mensagens que não chegam na api oficial, somente aparece no celular
