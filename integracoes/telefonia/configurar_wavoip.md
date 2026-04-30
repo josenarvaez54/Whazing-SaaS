@@ -11,7 +11,7 @@ icon: circle-phone
    * Visite [app.wavoip.com](https://app.wavoip.com/).
    * Faça o cadastro e realize o login.
 2. **Adicione um dispositivo**
-   * Após o login, escolha a opção para adicionar um dispositivo, escolha se quer plano gratuito ou pago (com cupom whazing sai R$ 40,00)
+   * Após o login, escolha a opção para adicionar um dispositivo, escolha se quer plano gratuito ou pago
 3. **Não leia o QRCODE**
    * Não deve ler qrcode conexão será pelo whazing
 4.  **Copie o Token**
@@ -39,11 +39,3 @@ icon: circle-phone
 ## Necessário liberar o canal pro usuário no cadastro usuários
 
 <figure><img src="../../.gitbook/assets/image (9).avif" alt=""><figcaption></figcaption></figure>
-
-## Dica Especial
-
-* Aproveite o cupom de desconto utilizando o código abaixo:
-
-```bash
-whazing
-```
