@@ -2187,6 +2187,594 @@
           "response": []
         }
       ]
+    },
+    {
+      "name": "Kanban Pro",
+      "item": [
+        {
+          "name": "🗑️ Arquivar / Deletar Card",
+          "item": [
+            {
+              "name": "Arquivar card (soft delete)",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/kanbanpro/card/42",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "kanbanpro",
+                    "card",
+                    "42"
+                  ]
+                },
+                "description": "Arquiva o card (pode ser restaurado depois).\nRegistra histórico com [API]."
+              },
+              "response": []
+            },
+            {
+              "name": "Deletar permanentemente",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/kanbanpro/card/42?permanent=true",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "kanbanpro",
+                    "card",
+                    "42"
+                  ],
+                  "query": [
+                    {
+                      "key": "permanent",
+                      "value": "true"
+                    }
+                  ]
+                },
+                "description": "⚠️ Deleta o card permanentemente sem possibilidade de recuperação.\nUse com cuidado."
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "⚡ Criar / Manipular Card (KanbanBotService)",
+          "item": [
+            {
+              "name": "Criar card (contato novo no board)",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"boardId\": 1,\n  \"columnId\": 2,\n  \"contactId\": 10,\n  \"action\": \"create_or_move\",\n  \"title\": \"Lead qualificado — João Silva\",\n  \"priority\": \"medium\",\n  \"note\": \"Entrou pelo formulário do site\"\n}"
+                },
+                "url": {
+                  "raw": "{{base_url}}/kanbanpro/card",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "kanbanpro",
+                    "card"
+                  ]
+                },
+                "description": "Cria um novo card para o contato.\nSe o contato já tiver um card ativo neste board, aplica a `action` configurada.\n\nActions disponíveis:\n  create_or_move   → (padrão) Cria ou move para a coluna informada\n  create_or_update → Cria ou atualiza dados sem mover\n  create_only      → Sempre cria um novo card\n  move_only        → Só move se já existir, ignora se não existir\n\nHistórico registrado como [API] automaticamente."
+              },
+              "response": []
+            },
+            {
+              "name": "Avançar card no funil (create_or_move)",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"boardId\": 1,\n  \"columnId\": 5,\n  \"contactId\": 10,\n  \"action\": \"create_or_move\",\n  \"priority\": \"high\",\n  \"note\": \"Proposta enviada, aguardando retorno\"\n}"
+                },
+                "url": {
+                  "raw": "{{base_url}}/kanbanpro/card",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "kanbanpro",
+                    "card"
+                  ]
+                },
+                "description": "Caso de uso: avançar o card do contato 10 para a coluna 5 (ex: 'Proposta').\nSe não existir card, cria. Se existir, move. Ideal para funis de venda."
+              },
+              "response": []
+            },
+            {
+              "name": "Atualizar dados sem mover (create_or_update)",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"boardId\": 1,\n  \"columnId\": 2,\n  \"contactId\": 10,\n  \"action\": \"create_or_update\",\n  \"title\": \"Lead URGENTE — João Silva\",\n  \"priority\": \"urgent\",\n  \"note\": \"Cliente ligou solicitando prioridade\"\n}"
+                },
+                "url": {
+                  "raw": "{{base_url}}/kanbanpro/card",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "kanbanpro",
+                    "card"
+                  ]
+                },
+                "description": "Atualiza o título e prioridade do card existente sem alterar a coluna.\nSe não houver card, cria na coluna informada."
+              },
+              "response": []
+            },
+            {
+              "name": "Forçar criação de novo card (create_only)",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"boardId\": 1,\n  \"columnId\": 2,\n  \"contactId\": 10,\n  \"action\": \"create_only\",\n  \"title\": \"Novo atendimento — João Silva\",\n  \"priority\": \"none\",\n  \"ticketId\": 305\n}"
+                },
+                "url": {
+                  "raw": "{{base_url}}/kanbanpro/card",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "kanbanpro",
+                    "card"
+                  ]
+                },
+                "description": "Cria um card novo mesmo que o contato já tenha outro card ativo no board.\nUtil quando cada ticket é independente."
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "📋 Listagens",
+          "item": [
+            {
+              "name": "Listar Boards",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/kanbanpro/boards",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "kanbanpro",
+                    "boards"
+                  ]
+                },
+                "description": "Retorna todos os boards ativos do tenant.\n\nResposta:\n  boards[] → id, name, description, color, icon, sortOrder"
+              },
+              "response": []
+            },
+            {
+              "name": "Listar Colunas de um Board",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/kanbanpro/boards/1/columns",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "kanbanpro",
+                    "boards",
+                    "1",
+                    "columns"
+                  ]
+                },
+                "description": "Retorna as colunas (etapas) de um board específico.\n\nSubstitua o '1' pelo ID real do board."
+              },
+              "response": []
+            },
+            {
+              "name": "Listar Cards de um Board",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/kanbanpro/boards/1/cards",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "kanbanpro",
+                    "boards",
+                    "1",
+                    "cards"
+                  ],
+                  "query": [
+                    {
+                      "key": "columnId",
+                      "value": "2",
+                      "description": "Filtrar por coluna",
+                      "disabled": true
+                    },
+                    {
+                      "key": "priority",
+                      "value": "high",
+                      "description": "none | low | medium | high | urgent",
+                      "disabled": true
+                    },
+                    {
+                      "key": "contactId",
+                      "value": "10",
+                      "description": "Filtrar por contato",
+                      "disabled": true
+                    },
+                    {
+                      "key": "search",
+                      "value": "João",
+                      "description": "Busca em título e descrição",
+                      "disabled": true
+                    },
+                    {
+                      "key": "includeArchived",
+                      "value": "true",
+                      "description": "Incluir cards arquivados",
+                      "disabled": true
+                    }
+                  ]
+                },
+                "description": "Lista cards de um board com filtros opcionais.\n\nQuery params disponíveis (todos opcionais):\n  columnId        → filtra por coluna\n  priority        → none | low | medium | high | urgent\n  contactId       → filtra por contato\n  search          → busca em título e descrição\n  includeArchived → true para incluir arquivados"
+              },
+              "response": []
+            },
+            {
+              "name": "Listar Cards de um Board (filtrado por coluna)",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/kanbanpro/boards/1/cards?columnId=3",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "kanbanpro",
+                    "boards",
+                    "1",
+                    "cards"
+                  ],
+                  "query": [
+                    {
+                      "key": "columnId",
+                      "value": "3"
+                    }
+                  ]
+                },
+                "description": "Exemplo prático: todos os cards na coluna 3 do board 1."
+              },
+              "response": []
+            },
+            {
+              "name": "Detalhe de um Card",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/kanbanpro/cards/42",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "kanbanpro",
+                    "cards",
+                    "42"
+                  ]
+                },
+                "description": "Retorna todos os dados de um card específico incluindo coluna, board, responsável e contato vinculado.\n\nSubstitua '42' pelo ID real do card."
+              },
+              "response": []
+            },
+            {
+              "name": "Cards de um Contato",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{base_url}}/kanbanpro/contact/15/cards",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "kanbanpro",
+                    "contact",
+                    "15",
+                    "cards"
+                  ],
+                  "query": [
+                    {
+                      "key": "includeArchived",
+                      "value": "true",
+                      "disabled": true
+                    }
+                  ]
+                },
+                "description": "Lista todos os cards vinculados ao contato em qualquer board do tenant.\n\nÚtil para ver o histórico completo de um contato no funil.\nSubstitua '15' pelo contactId real."
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "✏️ Atualizar Card",
+          "item": [
+            {
+              "name": "Atualizar título e prioridade",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"title\": \"Lead qualificado — prioridade alta\",\n  \"priority\": \"high\"\n}"
+                },
+                "url": {
+                  "raw": "{{base_url}}/kanbanpro/card/42",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "kanbanpro",
+                    "card",
+                    "42"
+                  ]
+                },
+                "description": "Atualiza campos de um card sem usar a lógica de bot.\nTodos os campos do body são opcionais."
+              },
+              "response": []
+            },
+            {
+              "name": "Mover card para outra coluna",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"columnId\": 6,\n  \"note\": \"Contrato assinado, movendo para Fechado\"\n}"
+                },
+                "url": {
+                  "raw": "{{base_url}}/kanbanpro/card/42",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "kanbanpro",
+                    "card",
+                    "42"
+                  ]
+                },
+                "description": "Move o card para outra coluna do mesmo board.\nA nota aparece no histórico com prefixo [API]."
+              },
+              "response": []
+            },
+            {
+              "name": "Atribuir responsável e data limite",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"assigneeId\": 3,\n  \"dueDate\": \"2026-05-30\"\n}"
+                },
+                "url": {
+                  "raw": "{{base_url}}/kanbanpro/card/42",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "kanbanpro",
+                    "card",
+                    "42"
+                  ]
+                },
+                "description": "Define o responsável (userId) e a data limite do card."
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "auth": {

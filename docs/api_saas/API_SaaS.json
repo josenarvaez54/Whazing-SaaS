@@ -454,6 +454,153 @@
       ]
     },
     {
+      "name": "Listar Planos",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {
+          "content-type": true
+        }
+      },
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{TOKEN_ADMIN}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{URL_ADMIN}}/{{API_ID}}/plans",
+          "host": [
+            "{{URL_ADMIN}}"
+          ],
+          "path": [
+            "{{API_ID}}",
+            "plans"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Listar Usuarios empresa",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{URL_ADMIN}}/{{API_ID}}/users/37",
+              "host": [
+                "{{URL_ADMIN}}"
+              ],
+              "path": [
+                "{{API_ID}}",
+                "users",
+                "37"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Access-Control-Allow-Credentials",
+              "value": "true"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "https://botteste.whazing.com.br"
+            },
+            {
+              "key": "Alt-Svc",
+              "value": "h3=\":443\"; ma=2592000"
+            },
+            {
+              "key": "Content-Length",
+              "value": "981"
+            },
+            {
+              "key": "Content-Security-Policy",
+              "value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;img-src 'self' data:;object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests;script-src 'self' https://botteste.whazing.com.br;frame-ancestors 'self' https://botteste.whazing.com.br"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 20 Aug 2025 22:48:21 GMT"
+            },
+            {
+              "key": "Etag",
+              "value": "W/\"3d5-gbSEDaKeab42Hwhioi5+mltFq2I\""
+            },
+            {
+              "key": "Expect-Ct",
+              "value": "max-age=0"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "no-referrer"
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=15552000; includeSubDomains"
+            },
+            {
+              "key": "Vary",
+              "value": "Origin"
+            },
+            {
+              "key": "Via",
+              "value": "1.1 Caddy"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "X-Dns-Prefetch-Control",
+              "value": "off"
+            },
+            {
+              "key": "X-Download-Options",
+              "value": "noopen"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "key": "X-Permitted-Cross-Domain-Policies",
+              "value": "none"
+            },
+            {
+              "key": "X-Xss-Protection",
+              "value": "0"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"users\": [\n        {\n            \"profilePictureName\": null,\n            \"profilePictureUrl\": null,\n            \"id\": 41,\n            \"name\": \"testando\",\n            \"email\": \"cleitonme22@gmail.com\",\n            \"status\": \"offline\",\n            \"resetPassword\": \"\",\n            \"passwordHash\": \"$2a$08$mvlRSyPfH5CwfnEf8SitGOkLS7.fwlG6/gZIrGlhjGXgDidZm7QSe\",\n            \"tokenVersion\": 0,\n            \"profile\": \"admin\",\n            \"profilePicture\": null,\n            \"tenantId\": 37,\n            \"lastLogin\": \"2025-08-19T14:04:04.971Z\",\n            \"lastOnline\": \"2025-08-19T14:16:29.265Z\",\n            \"lastLogout\": \"2025-08-19T14:02:04.246Z\",\n            \"isOnline\": false,\n            \"allcontacts\": false,\n            \"singleLogin\": true,\n            \"lastSeen\": \"2025-08-19T14:15:00.357Z\",\n            \"isActive\": true,\n            \"kanbanOrder\": null,\n            \"configs\": {\n                \"filtrosAtendimento\": {\n                    \"searchParam\": \"\",\n                    \"pageNumber\": 1,\n                    \"status\": [\n                        \"open\",\n                        \"pending\"\n                    ],\n                    \"showAll\": true,\n                    \"count\": null,\n                    \"queuesIds\": [],\n                    \"withUnreadMessages\": false,\n                    \"isNotAssignedUser\": false,\n                    \"includeNotQueueDefined\": true\n                },\n                \"isDark\": false\n            },\n            \"loginSchedule\": null,\n            \"sipServer\": null,\n            \"sipPort\": null,\n            \"sipUsername\": null,\n            \"sipPassword\": null,\n            \"sipEnabled\": false,\n            \"createdAt\": \"2025-08-04T19:14:34.606Z\",\n            \"updatedAt\": \"2025-08-19T14:25:00.077Z\"\n        }\n    ]\n}"
+        }
+      ]
+    },
+    {
       "name": "alterar senha ususuario",
       "protocolProfileBehavior": {
         "disabledSystemHeaders": {

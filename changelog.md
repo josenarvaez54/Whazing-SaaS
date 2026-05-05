@@ -1,5 +1,21 @@
 # Changelog e Atualizações
 
+## 🚀 Versão 2.19.0 BETA – Changelog
+
+* Mudanças no backend nas rotinas de envio e recebimento de mensagens para tentar trazer melhor desempenho ao sistema.
+* 🚀 Recepção Inteligente agora suporta URL OpenAI compatível (ex: LM Studio e Ollama) para uso com IA local ou provedores externos.
+* Novos filtros na tela de empresas SaaS.
+* Redimensionamento da coluna esquerda de tickets/usuários na tela de atendimento/chat interno.
+* Tela de atendimento com novo filtro "Somente meus tickets", para mostrar apenas tickets atribuídos ao seu userId ou ao supervisor de fila (quando a opção "Não visualizar tickets privados já atribuídos a outros usuários" estiver desativada).
+* Painel de atendimento: ao clicar, abre um modal com as mensagens e, no canto direito, há um botão para ir ao ticket.
+* Lista de mensagens rápidas agora mostra o usuário que criou e permite busca de mensagens.
+* Endpoint SaaS para listagem de planos.
+* Novo Kanban PRO – os cards são criados pelo usuário, podendo ou não estar atrelados a um contato. Modelo mais livre, inspirado no estilo Trello, com novos relatórios e todo um novo ecossistema.
+* Kanban – filtro por etiqueta.
+* Novos relatórios para o Kanban antigo.
+* Plus, Wuzapi e Baileys – canais agora têm a nova opção "limite de mensagens", que pode indicar se o número possui alguma restrição (recurso muito novo, as informações podem não ser precisas; Wuzapi requer atualização).
+* Liberação do uso do Wavoip API oficial – disponível em planos com suporte à API oficial. Suporte a mais de um token por canal, separado por vírgula, permitindo ligações simultâneas.
+
 ## 🚀 Versão 2.18.3 Estável – Changelog
 - bug - envio base64 wuzapi identificação melhor formato arquivo enviado
 - Caso baileys esteja desativado canal SaaS ela não inicia mais mesmo que canal já esteja cadastrado desativado definitivo
