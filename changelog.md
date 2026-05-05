@@ -1,6 +1,11 @@
 # Changelog e Atualizações
 
+## 🚀 Versão 2.18.3 Estável – Changelog
+- bug - envio base64 wuzapi identificação melhor formato arquivo enviado
+- Caso baileys esteja desativado canal SaaS ela não inicia mais mesmo que canal já esteja cadastrado desativado definitivo
+
 ## 🚀 Versão 2.18.2 Beta – Changelog
+- bug - correção dark modal template tela atendimento
 - bug - não estava validando quantidade canais conectar canal waba incorporado
 - bug - correcao uso s3 quando configurado prefixo pasta causa erros varios pontos
 - bug - contato enviado em modo dark
