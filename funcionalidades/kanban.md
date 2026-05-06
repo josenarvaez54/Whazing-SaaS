@@ -120,6 +120,59 @@ Dentro de cada contato você pode:
 
 ***
 
+### 📊 Relatórios do Kanban
+
+Agora o sistema conta com relatórios completos para análise do seu Kanban.
+
+📍 Localização:
+
+👉 **Menu → Relatórios**
+
+***
+
+#### 📈 Relatório Geral do Kanban
+
+* Visão completa de todos os cards no Kanban
+* Quantidade por etapa (lane)
+* Acompanhamento geral do funil
+
+💡 Ideal para ter uma visão rápida do desempenho da equipe
+
+<figure><img src="../.gitbook/assets/relatoriogeralkanban.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+#### ⏰ Relatório de Vencimentos do Kanban
+
+* Mostra contatos com **data estimada/vencimento**
+* Identifica atrasos e pendências
+* Ajuda no controle de prazos
+
+💡 Muito útil para não perder negociações ou tarefas importantes
+
+***
+
+#### 🏷️ Relatório de Tags do Kanban
+
+* Agrupa contatos por **tags**
+* Permite análise por tipo de cliente, interesse ou origem
+
+💡 Ideal para entender melhor o perfil dos atendimentos
+
+***
+
+#### 🔄 Relatório de Pipeline do Kanban
+
+* Mostra o fluxo dos contatos entre etapas
+* Permite analisar conversão entre fases
+* Ajuda a identificar gargalos no processo
+
+💡 Excelente para otimizar seu funil de vendas/atendimento
+
+<figure><img src="../.gitbook/assets/pipelinekanban.png" alt=""><figcaption></figcaption></figure>
+
+***
+
 ## 🔗 Onde mais posso alterar o Kanban
 
 Você também pode mudar a etapa do contato em:
