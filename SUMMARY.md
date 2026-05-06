@@ -117,7 +117,7 @@
       * [Envio de Arquivos via IA](integracoes/inteligencia-artificial/recepcao-inteligente/envio-de-arquivos-via-ia.md)
       * [Outros Comandos](integracoes/inteligencia-artificial/recepcao-inteligente/outros-comandos.md)
       * [Configuração de Resposta por Áudio](integracoes/inteligencia-artificial/recepcao-inteligente/configuracao-de-resposta-por-audio.md)
-      * [Provedor personalizado](integracoes/inteligencia-artificial/recepcao-inteligente/provedor-personalizado.md)
+      * [Configurando Provedor de IA Personalizado (OpenAI Compatível)](integracoes/inteligencia-artificial/recepcao-inteligente/configurando-provedor-de-ia-personalizado-openai-compativel.md)
   * [CRM & ERP](integracoes/crm-and-erp/README.md)
     * [WooCommerce](integracoes/crm-and-erp/woocommerce-login-whatsapp.md)
     * [PerfexCRM](integracoes/crm-and-erp/perfexcrm/README.md)
