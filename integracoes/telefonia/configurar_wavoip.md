@@ -39,3 +39,7 @@ icon: circle-phone
 ## Necessário liberar o canal pro usuário no cadastro usuários
 
 <figure><img src="../../.gitbook/assets/image (9).avif" alt=""><figcaption></figcaption></figure>
+
+Para ter descontos compra entre contato com suporte
+
+[https://wavoip.com/partners](https://wavoip.com/partners)
