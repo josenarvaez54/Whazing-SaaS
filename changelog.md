@@ -1,5 +1,14 @@
 # Changelog e Atualizações
 
+## 🚀 Versão 2.19.1 BETA – Changelog
+- bug - erro para download documentos com nome muito grande wuzapi 
+- Icones na lista de quadros
+- Editar agendamento
+- Validar data envio agendamento não permitir envio anterior
+- Nova configurações "Abrir ticket ao enviar" e caso ativo aparece seleção fila serve para caso ativado vai abrir ticket deixar aba abertos para usuario criou agendamento na fila ele definiu
+- Api plus - Configurar selecionar cidade do proxy - acreditamos que diminui banimentos cidade proxima de uso numero
+- Suporte Json campo mensagem no SaaS "Integração API — Envio de Mensagens e Alertas" Pode ser utilizado para envio templates api oficial ou botões
+
 ## 🚀 Versão 2.19.0 BETA – Changelog
 
 * Mudanças no backend nas rotinas de envio e recebimento de mensagens para tentar trazer melhor desempenho ao sistema.
