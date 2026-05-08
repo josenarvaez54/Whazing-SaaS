@@ -6,9 +6,6 @@ Esse recurso é ideal para integração com:
 
 * APIs de botões interativos
 * API Oficial do WhatsApp (Templates Meta)
-* APIs personalizadas
-* Fluxos automatizados
-* Gateways compatíveis com JSON
 
 ***
 
@@ -39,11 +36,7 @@ Quando ativado, o sistema envia alertas automáticos de cobrança:
 
 Pode ser utilizado com:
 
-* Botões de pagamento
-* Templates oficiais
-* Links Pix
-* Links de boleto
-* Mensagens personalizadas
+* Link botões
 
 ***
 
@@ -73,7 +66,6 @@ Esse modo é recomendado para:
 * APIs com botões
 * API Oficial do WhatsApp
 * Templates Meta
-* APIs compatíveis com estrutura JSON
 
 ***
 
