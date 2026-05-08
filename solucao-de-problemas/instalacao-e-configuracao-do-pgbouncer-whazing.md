@@ -66,15 +66,15 @@ Substitua dentro de `DATABASES`:
 Se seu `.env` for:
 
 ```
-POSTGRES_DB=whazing
-POSTGRES_USER=postgres
+POSTGRES_DB=postgres
+POSTGRES_USER=whazing
 POSTGRES_PASSWORD=123456
 ```
 
 Então fica:
 
 ```
--e DATABASES="postgres=host=127.0.0.1 port=5432 dbname=whazing user=postgres password=123456"
+-e DATABASES="postgres=host=127.0.0.1 port=5432 dbname=postgres user=whazing password=123456"
 ```
 
 ***
